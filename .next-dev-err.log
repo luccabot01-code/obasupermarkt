@@ -1,0 +1,284 @@
+[browser] Image with src "/dikey.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/dikey.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/dikey.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/dikey.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/dikey.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+⨯ ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <unknown> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined { {
+  digest: '2588278558'
+}
+[browser] Uncaught ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <anonymous> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>:1:18)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined {
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <unknown> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined { {
+  digest: '2588278558'
+}
+[browser] Uncaught ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <anonymous> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>:1:18)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined {
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/Untitled design (2).png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+⨯ ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <unknown> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined { {
+  digest: '2588278558'
+}
+[browser] Uncaught ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <anonymous> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>:1:18)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined {
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+⨯ ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <unknown> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined { {
+  digest: '2588278558'
+}
+[browser] Uncaught ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <anonymous> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>:1:18)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined {
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_yukledigim-fotograf-duzen_2827049376.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (<anonymous>:132:36)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+⨯ ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <unknown> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined { {
+  digest: '2588278558'
+}
+[browser] Uncaught ReferenceError: categorySlugMap is not defined
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+⨯ ReferenceError: categorySlugMap is not defined
+    at getCanonicalCategorySlug (src\lib\i18n\routing.ts:239:27)
+    at localizeCategory (src\lib\data\categories.ts:122:35)
+    at getCategoryById (src\lib\data\categories.ts:149:21)
+    at localizeProduct (src\lib\data\products.ts:477:30)
+    at <unknown> (src\lib\data\products.ts:582:51)
+    at Array.map (<anonymous>)
+    at getAllProducts (src\lib\data\products.ts:582:34)
+    at ProductsPage (src\app\[locale]\public\products\page.tsx:30:19)
+  237 |
+  238 | export function getCanonicalCategorySlug(id: string): string | undefined {
+> 239 |   return getCanonicalSlug(categorySlugMap, id);
+      |                           ^
+  240 | }
+  241 |
+  242 | export function getCanonicalProductSlug(id: string): string | undefined { {
+  digest: '2588278558'
+}
+[browser] Uncaught ReferenceError: categorySlugMap is not defined
+[browser] Image with src "/Untitled design (2).png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "https://images.pexels.com/photos/3735189/pexels-photo-3735189.jpeg?auto=compress&cs=tinysrgb&w=1200" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+⨯ ReferenceError: store is not defined
+    at AboutPage (src\app\[locale]\public\about\page.tsx:46:23)
+  44 |             <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+  45 |               <StoreNameWordmark
+> 46 |                 name={store.storeName}
+     |                       ^
+  47 |                 className="font-semibold"
+  48 |                 supermarktClassName="font-semibold text-foreground"
+  49 |               /> {
+  digest: '2018341319'
+}
+[browser] Uncaught ReferenceError: store is not defined
+    at <unknown> (AboutPage@)
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/Untitled design (2).png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/freepik_enhance-and-upscale-this-_2824589049.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

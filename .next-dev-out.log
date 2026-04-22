@@ -1,0 +1,211 @@
+
+> yenisite@0.1.0 dev
+> next dev --hostname 0.0.0.0 --port 3000
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 545ms
+
+ GET /de/ 200 in 1385ms (next.js: 669ms, proxy.ts: 7ms, generate-params: 533ms, application-code: 709ms)
+ GET /de/ 200 in 199ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 181ms)
+ GET /tr/ 200 in 245ms (next.js: 17ms, proxy.ts: 11ms, generate-params: 7ms, application-code: 218ms)
+ GET /tr/ 200 in 300ms (next.js: 17ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 278ms)
+ GET /tr/ 200 in 277ms (next.js: 14ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 256ms)
+ GET /tr/ 200 in 335ms (next.js: 19ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 310ms)
+ GET /de/ 200 in 236ms (next.js: 16ms, proxy.ts: 9ms, generate-params: 6ms, application-code: 210ms)
+ POST /api/locale/ 200 in 132ms (next.js: 100ms, proxy.ts: 7ms, application-code: 26ms)
+ GET /tr/ 200 in 143ms (next.js: 31ms, proxy.ts: 12ms, generate-params: 9ms, application-code: 100ms)
+ GET /tr/ 200 in 151ms (next.js: 14ms, proxy.ts: 10ms, generate-params: 51µs, application-code: 127ms)
+ GET /tr/ 200 in 226ms (next.js: 16ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 205ms)
+✓ Compiled in 852ms
+ GET /tr/ 200 in 553ms (next.js: 219ms, proxy.ts: 81ms, generate-params: 7ms, application-code: 253ms)
+ GET /tr/ 200 in 545ms (next.js: 340ms, proxy.ts: 79ms, generate-params: 23µs, application-code: 126ms)
+ GET /tr/ 200 in 485ms (next.js: 13ms, proxy.ts: 7ms, generate-params: 6ms, application-code: 464ms)
+✓ Compiled in 440ms
+ GET /tr/ 200 in 924ms (next.js: 283ms, proxy.ts: 115ms, generate-params: 7ms, application-code: 526ms)
+ GET /tr/ 200 in 924ms (next.js: 497ms, proxy.ts: 119ms, generate-params: 41µs, application-code: 307ms)
+ GET /tr/ 200 in 800ms (next.js: 641ms, proxy.ts: 17ms, generate-params: 45µs, application-code: 142ms)
+ GET /tr/ 200 in 456ms (next.js: 24ms, proxy.ts: 7ms, generate-params: 10ms, application-code: 425ms)
+✓ Compiled in 362ms
+ GET /tr/ 200 in 820ms (next.js: 159ms, proxy.ts: 85ms, generate-params: 6ms, application-code: 575ms)
+ GET /tr/ 200 in 370ms (next.js: 40ms, proxy.ts: 66ms, generate-params: 38µs, application-code: 264ms)
+ GET /tr/ 200 in 370ms (next.js: 132ms, proxy.ts: 76ms, generate-params: 42µs, application-code: 162ms)
+ GET /tr/ 200 in 499ms (next.js: 17ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 477ms)
+✓ Compiled in 327ms
+ GET /tr/ 200 in 721ms (next.js: 171ms, proxy.ts: 76ms, generate-params: 7ms, application-code: 473ms)
+ GET /tr/ 200 in 639ms (next.js: 392ms, proxy.ts: 13ms, generate-params: 38µs, application-code: 235ms)
+ GET /tr/ 200 in 279ms (next.js: 132ms, proxy.ts: 34ms, generate-params: 44µs, application-code: 113ms)
+ GET /tr/ 200 in 433ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 414ms)
+ GET /tr/ 200 in 354ms (next.js: 25ms, proxy.ts: 11ms, generate-params: 11ms, application-code: 319ms)
+ GET /tr/products/ 200 in 855ms (next.js: 769ms, proxy.ts: 7ms, generate-params: 718ms, application-code: 79ms)
+✓ Compiled in 297ms
+ GET /tr/products/ 200 in 1606ms (next.js: 165ms, proxy.ts: 113ms, generate-params: 6ms, application-code: 1328ms)
+ GET /tr/ 200 in 1490ms (next.js: 963ms, proxy.ts: 15ms, generate-params: 12ms, application-code: 512ms)
+ GET /tr/ 200 in 1036ms (next.js: 569ms, proxy.ts: 202ms, generate-params: 26µs, application-code: 265ms)
+ GET /tr/ 200 in 82ms (next.js: 17ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 57ms)
+ GET /tr/ 200 in 487ms (next.js: 16ms, proxy.ts: 7ms, generate-params: 7ms, application-code: 464ms)
+✓ Compiled in 293ms
+ GET /tr/ 200 in 774ms (next.js: 223ms, proxy.ts: 97ms, generate-params: 5ms, application-code: 455ms)
+ GET /tr/ 200 in 775ms (next.js: 343ms, proxy.ts: 97ms, generate-params: 20µs, application-code: 334ms)
+ GET /tr/ 200 in 673ms (next.js: 501ms, proxy.ts: 25ms, generate-params: 40µs, application-code: 146ms)
+ GET /tr/ 200 in 624ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 9ms, application-code: 604ms)
+✓ Compiled in 319ms
+ GET /tr/ 200 in 882ms (next.js: 188ms, proxy.ts: 93ms, generate-params: 9ms, application-code: 601ms)
+ GET /tr/ 200 in 440ms (next.js: 183ms, proxy.ts: 59ms, generate-params: 56µs, application-code: 198ms)
+ GET /tr/ 200 in 470ms (next.js: 56ms, proxy.ts: 80ms, generate-params: 33µs, application-code: 334ms)
+ GET /tr/ 200 in 586ms (next.js: 17ms, proxy.ts: 7ms, generate-params: 7ms, application-code: 562ms)
+ GET /tr/ 200 in 479ms (next.js: 19ms, proxy.ts: 7ms, generate-params: 8ms, application-code: 454ms)
+ GET /tr/ 200 in 359ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 339ms)
+ GET /tr/ 200 in 262ms (next.js: 14ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 243ms)
+✓ Compiled in 284ms
+ GET /tr/ 200 in 840ms (next.js: 191ms, proxy.ts: 82ms, generate-params: 6ms, application-code: 567ms)
+ GET /tr/ 200 in 762ms (next.js: 379ms, proxy.ts: 13ms, generate-params: 42µs, application-code: 370ms)
+ GET /tr/ 200 in 436ms (next.js: 232ms, proxy.ts: 54ms, generate-params: 31µs, application-code: 150ms)
+ GET /tr/ 200 in 527ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 9ms, application-code: 507ms)
+ GET /tr/ 200 in 306ms (next.js: 16ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 283ms)
+ GET /tr/products/ 200 in 181ms (next.js: 41ms, proxy.ts: 12ms, generate-params: 9ms, application-code: 128ms)
+ GET /tr/ 200 in 248ms (next.js: 14ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 230ms)
+ POST /api/locale/ 200 in 90ms (next.js: 52ms, proxy.ts: 7ms, application-code: 31ms)
+ GET /de/ 200 in 157ms (next.js: 18ms, proxy.ts: 9ms, generate-params: 8ms, application-code: 130ms)
+ GET /de/ 200 in 218ms (next.js: 22ms, proxy.ts: 16ms, generate-params: 153µs, application-code: 179ms)
+ GET /de/products/ 200 in 93ms (next.js: 19ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 68ms)
+✓ Compiled in 318ms
+ GET /tr/ 200 in 1481ms (next.js: 239ms, proxy.ts: 124ms, generate-params: 6ms, application-code: 1117ms)
+ GET /tr/ 200 in 1368ms (next.js: 1018ms, proxy.ts: 17ms, generate-params: 38µs, application-code: 332ms)
+ GET /de/ 200 in 1508ms (next.js: 348ms, proxy.ts: 125ms, generate-params: 23µs, application-code: 1035ms)
+ POST /api/locale/ 200 in 88ms (next.js: 55ms, proxy.ts: 11ms, application-code: 22ms)
+ GET /tr/ 200 in 117ms (next.js: 20ms, proxy.ts: 9ms, generate-params: 9ms, application-code: 88ms)
+ GET /tr/ 200 in 155ms (next.js: 14ms, proxy.ts: 12ms, generate-params: 46µs, application-code: 129ms)
+ GET /tr/ 200 in 316ms (next.js: 14ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 297ms)
+ GET /tr/ 200 in 262ms (next.js: 20ms, proxy.ts: 9ms, generate-params: 12ms, application-code: 233ms)
+ GET /tr/ 200 in 241ms (next.js: 21ms, proxy.ts: 6ms, generate-params: 10ms, application-code: 214ms)
+ GET /tr/ 200 in 246ms (next.js: 14ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 225ms)
+ GET /tr/ 200 in 256ms (next.js: 18ms, proxy.ts: 7ms, generate-params: 8ms, application-code: 231ms)
+ GET /tr/ 200 in 425ms (next.js: 19ms, proxy.ts: 10ms, generate-params: 10ms, application-code: 396ms)
+ GET /tr/ 200 in 334ms (next.js: 18ms, proxy.ts: 5ms, generate-params: 9ms, application-code: 311ms)
+ GET /tr/ 200 in 284ms (next.js: 15ms, proxy.ts: 10ms, generate-params: 7ms, application-code: 259ms)
+ GET /tr/ 200 in 295ms (next.js: 15ms, proxy.ts: 7ms, generate-params: 7ms, application-code: 273ms)
+ GET /tr/ 200 in 289ms (next.js: 19ms, proxy.ts: 5ms, generate-params: 9ms, application-code: 265ms)
+ GET /tr/ 200 in 264ms (next.js: 15ms, proxy.ts: 6ms, generate-params: 9ms, application-code: 243ms)
+✓ Compiled in 292ms
+ GET /tr/ 200 in 765ms (next.js: 203ms, proxy.ts: 130ms, generate-params: 6ms, application-code: 432ms)
+ GET /tr/ 200 in 764ms (next.js: 352ms, proxy.ts: 130ms, generate-params: 24µs, application-code: 282ms)
+ GET /tr/ 200 in 464ms (next.js: 13ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 445ms)
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 667ms
+
+ GET /tr/ 200 in 3.5s (next.js: 1691ms, proxy.ts: 303ms, generate-params: 1009ms, application-code: 1489ms)
+ GET /tr/ 200 in 3.2s (next.js: 2.2s, proxy.ts: 13ms, generate-params: 1561ms, application-code: 906ms)
+ GET /tr/ 200 in 303ms (next.js: 23ms, proxy.ts: 9ms, generate-params: 9ms, application-code: 270ms)
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 494ms
+
+ GET /tr/ 200 in 1862ms (next.js: 795ms, proxy.ts: 205ms, generate-params: 640ms, application-code: 862ms)
+✓ Compiled in 998ms
+ GET /tr/ 200 in 371ms (next.js: 156ms, proxy.ts: 50ms, generate-params: 9ms, application-code: 165ms)
+ GET /tr/ 200 in 399ms (next.js: 18ms, proxy.ts: 7ms, generate-params: 8ms, application-code: 374ms)
+ GET /tr/ 200 in 129ms (next.js: 19ms, proxy.ts: 9ms, generate-params: 7ms, application-code: 101ms)
+ GET /tr/ 200 in 359ms (next.js: 11ms, proxy.ts: 114ms, generate-params: 87µs, application-code: 234ms)
+ GET /tr/ 200 in 432ms (next.js: 16ms, proxy.ts: 7ms, generate-params: 6ms, application-code: 408ms)
+ POST /api/locale/ 200 in 119ms (next.js: 87ms, proxy.ts: 7ms, application-code: 25ms)
+ GET /de/ 200 in 101ms (next.js: 16ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 78ms)
+ GET /de/ 200 in 119ms (next.js: 9ms, proxy.ts: 11ms, generate-params: 110µs, application-code: 99ms)
+✓ Compiled in 486ms
+ GET /de/ 200 in 894ms (next.js: 200ms, proxy.ts: 134ms, generate-params: 12ms, application-code: 561ms)
+ GET /tr/ 200 in 365ms (next.js: 28ms, proxy.ts: 53ms, generate-params: 45µs, application-code: 284ms)
+ GET /tr/ 200 in 348ms (next.js: 134ms, proxy.ts: 44ms, generate-params: 73µs, application-code: 170ms)
+ GET /de/ 200 in 495ms (next.js: 13ms, proxy.ts: 9ms, generate-params: 5ms, application-code: 473ms)
+ POST /api/locale/ 200 in 38ms (next.js: 25ms, proxy.ts: 6ms, application-code: 7ms)
+ GET /tr/ 200 in 81ms (next.js: 16ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 58ms)
+ GET /tr/ 200 in 92ms (next.js: 9ms, proxy.ts: 5ms, generate-params: 20µs, application-code: 77ms)
+ GET /tr/ 200 in 291ms (next.js: 18ms, proxy.ts: 13ms, generate-params: 8ms, application-code: 260ms)
+ GET /tr/ 200 in 305ms (next.js: 15ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 283ms)
+ GET /tr/ 200 in 275ms (next.js: 19ms, proxy.ts: 8ms, generate-params: 7ms, application-code: 248ms)
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 512ms
+
+ GET /tr/ 200 in 3.2s (next.js: 1486ms, proxy.ts: 236ms, generate-params: 749ms, application-code: 1448ms)
+ GET /tr/ 200 in 2.5s (next.js: 1198ms, proxy.ts: 18ms, generate-params: 866ms, application-code: 1300ms)
+ GET /tr/ 200 in 1816ms (next.js: 887ms, proxy.ts: 8ms, generate-params: 877ms, application-code: 922ms)
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 505ms
+
+ GET /tr/ 200 in 1843ms (next.js: 811ms, proxy.ts: 211ms, generate-params: 659ms, application-code: 820ms)
+ GET /tr/ 200 in 273ms (next.js: 17ms, proxy.ts: 9ms, generate-params: 7ms, application-code: 248ms)
+✓ Compiled in 1032ms
+ GET /tr/ 200 in 341ms (next.js: 125ms, proxy.ts: 47ms, generate-params: 8ms, application-code: 170ms)
+ GET /tr/ 200 in 118ms (next.js: 16ms, proxy.ts: 9ms, generate-params: 6ms, application-code: 92ms)
+ GET /tr/ 200 in 409ms (next.js: 17ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 386ms)
+ GET /tr/ 200 in 232ms (next.js: 17ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 210ms)
+ GET /tr/ 200 in 373ms (next.js: 15ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 351ms)
+ GET /tr/ 200 in 256ms (next.js: 18ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 233ms)
+ GET /tr/ 200 in 289ms (next.js: 16ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 269ms)
+ GET /tr/ 200 in 300ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 280ms)
+ GET /tr/ 200 in 293ms (next.js: 14ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 275ms)
+ GET /tr/ 200 in 263ms (next.js: 14ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 245ms)
+ GET /tr/ 200 in 278ms (next.js: 15ms, proxy.ts: 6ms, generate-params: 5ms, application-code: 257ms)
+ GET /tr/ 200 in 255ms (next.js: 18ms, proxy.ts: 5ms, generate-params: 10ms, application-code: 232ms)
+ GET /tr/ 200 in 251ms (next.js: 16ms, proxy.ts: 4ms, generate-params: 9ms, application-code: 231ms)
+ GET /tr/ 200 in 267ms (next.js: 15ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 246ms)
+ GET /tr/ 200 in 272ms (next.js: 16ms, proxy.ts: 5ms, generate-params: 8ms, application-code: 251ms)
+ GET /tr/ 200 in 259ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 240ms)
+ GET /tr/ 200 in 231ms (next.js: 16ms, proxy.ts: 7ms, generate-params: 6ms, application-code: 209ms)
+ GET /tr/ 200 in 317ms (next.js: 16ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 296ms)
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 592ms
+
+ GET /tr/ 200 in 2.2s (next.js: 882ms, proxy.ts: 223ms, generate-params: 694ms, application-code: 1098ms)
+ GET /tr/ 200 in 1965ms (next.js: 1270ms, proxy.ts: 11ms, generate-params: 1067ms, application-code: 684ms)
+ GET /tr/ 200 in 331ms (next.js: 16ms, proxy.ts: 7ms, generate-params: 7ms, application-code: 308ms)
+ GET /tr/ 200 in 313ms (next.js: 21ms, proxy.ts: 8ms, generate-params: 9ms, application-code: 284ms)
+ GET /de/ 200 in 246ms (next.js: 17ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 222ms)
+ GET /tr/ 200 in 282ms (next.js: 17ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 260ms)
+ GET /tr/ 200 in 282ms (next.js: 24ms, proxy.ts: 10ms, generate-params: 16ms, application-code: 247ms)
+ GET /tr/ 200 in 253ms (next.js: 16ms, proxy.ts: 7ms, generate-params: 7ms, application-code: 230ms)
+ GET /de/ 200 in 232ms (next.js: 17ms, proxy.ts: 4ms, generate-params: 8ms, application-code: 210ms)
+ GET /de/ 200 in 226ms (next.js: 14ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 208ms)
+ GET /tr/ 200 in 202ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 185ms)
+ GET /tr/ 200 in 199ms (next.js: 7ms, proxy.ts: 5ms, generate-params: 23µs, application-code: 187ms)
+ GET /tr/products/ 200 in 665ms (next.js: 589ms, proxy.ts: 6ms, generate-params: 542ms, application-code: 70ms)
+ GET /apple-touch-icon-precomposed.png 200 in 697ms (next.js: 11ms, generate-params: 5ms, application-code: 686ms)
+ GET /apple-touch-icon.png 200 in 696ms (next.js: 89ms, generate-params: 33µs, application-code: 607ms)
+ GET /tr/ 200 in 721ms (next.js: 188ms, proxy.ts: 13ms, generate-params: 19µs, application-code: 520ms)
+ GET /tr/ 200 in 720ms (next.js: 294ms, proxy.ts: 13ms, generate-params: 19µs, application-code: 413ms)
+ GET /apple-touch-icon-120x120-precomposed.png 200 in 130ms (next.js: 10ms, generate-params: 6ms, application-code: 120ms)
+ GET /apple-touch-icon-120x120.png 200 in 128ms (next.js: 5ms, generate-params: 35µs, application-code: 124ms)
+ GET /apple-touch-icon-precomposed.png 200 in 114ms (next.js: 5ms, generate-params: 27µs, application-code: 110ms)
+ GET /apple-touch-icon.png 200 in 121ms (next.js: 13ms, generate-params: 8ms, application-code: 108ms)
+ GET /tr/ 200 in 218ms (next.js: 7ms, proxy.ts: 6ms, generate-params: 31µs, application-code: 205ms)
+ GET /tr/promotions/ 200 in 657ms (next.js: 614ms, proxy.ts: 5ms, generate-params: 567ms, application-code: 38ms)
+ GET /tr/products/ 200 in 64ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 46ms)
+ GET /tr/promotions/ 200 in 274ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 257ms)
+ GET /tr/about/ 200 in 622ms (next.js: 577ms, proxy.ts: 5ms, generate-params: 533ms, application-code: 40ms)
+ GET /tr/ 200 in 221ms (next.js: 16ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 201ms)
+ GET /tr/ 200 in 218ms (next.js: 14ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 199ms)
+✓ Compiled in 1032ms
+ GET /tr/ 200 in 452ms (next.js: 171ms, proxy.ts: 91ms, generate-params: 8ms, application-code: 191ms)
+ GET /tr/ 200 in 534ms (next.js: 17ms, proxy.ts: 9ms, generate-params: 8ms, application-code: 508ms)
+✓ Compiled in 423ms
+ GET /tr/ 200 in 681ms (next.js: 154ms, proxy.ts: 79ms, generate-params: 6ms, application-code: 448ms)
+ GET /tr/ 200 in 178ms (next.js: 19ms, proxy.ts: 33ms, generate-params: 45µs, application-code: 126ms)
+ GET /tr/ 200 in 485ms (next.js: 16ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 463ms)
+ GET /tr/ 200 in 281ms (next.js: 13ms, proxy.ts: 7ms, generate-params: 6ms, application-code: 260ms)
+✓ Compiled in 281ms
+ GET /tr/ 200 in 518ms (next.js: 154ms, proxy.ts: 110ms, generate-params: 6ms, application-code: 254ms)
+ GET /tr/ 200 in 401ms (next.js: 313ms, proxy.ts: 9ms, generate-params: 21µs, application-code: 79ms)
+ GET /tr/ 200 in 422ms (next.js: 14ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 402ms)
+ GET /tr/ 200 in 211ms (next.js: 14ms, proxy.ts: 7ms, generate-params: 7ms, application-code: 190ms)
+ GET /tr/ 200 in 332ms (next.js: 22ms, proxy.ts: 8ms, generate-params: 9ms, application-code: 302ms)
+ GET /tr/ 200 in 231ms (next.js: 18ms, proxy.ts: 5ms, generate-params: 8ms, application-code: 208ms)
+ GET /tr/ 200 in 246ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 229ms)
