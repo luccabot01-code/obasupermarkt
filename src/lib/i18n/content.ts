@@ -11,11 +11,11 @@ function pick<T>(localized: Record<Locale, T>, locale?: Locale): T {
 export const storeContent = {
   tagline: {
     tr: "Taze Ürünler, Haftalık İndirimler",
-    de: "Frische Produkte, Aktionen für jeden Tag",
+    de: "Frische Produkte, wöchentliche Rabatte",
   },
   description: {
     tr: "Oba Supermarkt olarak müşterilerimize kasap reyonundan günlük ekmek ve poğaça çeşitlerine, kahvaltılıklardan temizlik ürünlerine kadar geniş bir ürün yelpazesi sunuyoruz. Taze ürünler, düzenli reyonlar ve günlük ihtiyaçları tek yerde tamamlama kolaylığıyla hizmetinizdeyiz.",
-    de: "Oba Supermarkt bietet ein breites Sortiment – von der Fleischtheke über täglich frisches Brot und Gebäck bis zu Frühstücksartikeln und Reinigungsprodukten. Mit frischen Waren, geordneten Regalen und allem für den täglichen Bedarf sind wir in Wien für Sie da.",
+    de: "Als Oba Supermarkt bieten wir unseren Kundinnen und Kunden ein breites Sortiment, von der Fleischtheke über täglich frisches Brot und Poğaça-Sorten bis hin zu Frühstücksartikeln und Reinigungsprodukten. Mit frischen Produkten, geordneten Regalen und der Möglichkeit, den täglichen Bedarf an einem Ort zu decken, sind wir für Sie da.",
   },
   country: {
     tr: "Avusturya",
@@ -27,7 +27,7 @@ export const storeContent = {
   },
   metaDescription: {
     tr: "Oba Supermarkt - Kasap, günlük fırın ürünleri, kahvaltılıklar, temizlik ürünleri ve daha fazlası. Online ürün kataloğumuzu keşfedin!",
-    de: "Oba Supermarkt - Fleischtheke, tägliche Backwaren, Frühstücksartikel, Reinigungsprodukte und vieles mehr. Entdecken Sie unseren Produktkatalog online.",
+    de: "Oba Supermarkt - Fleischtheke, tägliche Backwaren, Frühstücksartikel, Reinigungsprodukte und vieles mehr. Entdecken Sie unseren Online-Produktkatalog!",
   },
 } satisfies Record<string, LocalizedText>;
 
@@ -39,27 +39,27 @@ export const categoryContent = {
     },
     description: {
       tr: "Taze ve organik meyve ve sebzeler",
-      de: "Frisches und organisches Obst und Gemüse",
+      de: "Frisches und biologisches Obst und Gemüse",
     },
   },
   "cat-002": {
     name: {
       tr: "Et & Tavuk",
-      de: "Fleisch & Geflügel",
+      de: "Fleisch & Hähnchen",
     },
     description: {
       tr: "Taze et ve tavuk ürünleri",
-      de: "Frische Fleisch- und Geflügelprodukte",
+      de: "Frische Fleisch- und Hähnchenprodukte",
     },
   },
   "cat-003": {
     name: {
       tr: "Süt & Kahvaltılık",
-      de: "Molkerei & Frühstück",
+      de: "Milchprodukte & Frühstücksartikel",
     },
     description: {
       tr: "Süt ürünleri ve kahvaltılıklar",
-      de: "Molkereiprodukte und Frühstücksartikel",
+      de: "Milchprodukte und Frühstücksartikel",
     },
   },
   "cat-004": {
@@ -85,21 +85,21 @@ export const categoryContent = {
   "cat-006": {
     name: {
       tr: "Atıştırmalık",
-      de: "Knabbereien",
+      de: "Snacks",
     },
     description: {
       tr: "Cips, çikolata ve atıştırmalıklar",
-      de: "Chips, Schokolade und weitere Knabbereien",
+      de: "Chips, Schokolade und Snacks",
     },
   },
   "cat-007": {
     name: {
       tr: "Temel Gıda",
-      de: "Basisprodukte",
+      de: "Grundnahrungsmittel",
     },
     description: {
       tr: "Pirinç, makarna, yağ ve temel gıda ürünleri",
-      de: "Reis, Pasta, Öle und weitere Basisprodukte",
+      de: "Reis, Nudeln, Öl und Grundnahrungsmittel",
     },
   },
   "cat-008": {
@@ -109,7 +109,7 @@ export const categoryContent = {
     },
     description: {
       tr: "Ev ve kişisel temizlik ürünleri",
-      de: "Produkte für Haushalt und persönliche Hygiene",
+      de: "Reinigungsprodukte für Haushalt und Körperpflege",
     },
   },
 } satisfies Record<string, { name: LocalizedText; description: LocalizedText }>;
@@ -119,7 +119,7 @@ export const productContent = {
     name: { tr: "Organik Elma (Granny Smith)", de: "Bio-Apfel (Granny Smith)"},
     description: {
       tr: "Taze ve organik Granny Smith elmalar. Vitamin deposu, sağlıklı atıştırmalık.",
-      de: "Frische Bio-Granny-Smith-Äpfel. Vitaminreich und ideal als gesunde Zwischenmahlzeit.",
+      de: "Frische und biologische Granny-Smith-Äpfel. Reich an Vitaminen, ein gesunder Snack.",
     },
     shortDescription: { tr: "Taze organik elma", de: "Frischer Bio-Apfel"},
     tags: {
@@ -127,13 +127,13 @@ export const productContent = {
       de: ["bio", "obst", "gesund"],
     },
     metaTitle: { tr: "Organik Elma - Oba Supermarkt", de: "Bio-Apfel - Oba Supermarkt"},
-    metaDescription: { tr: "Taze organik Granny Smith elmalar", de: "Frische Bio-Granny-Smith-Äpfel"},
+    metaDescription: { tr: "Taze organik Granny Smith elmalar", de: "Frische biologische Granny-Smith-Äpfel"},
   },
   "prod-002": {
     name: { tr: "Muz (Cavendish)", de: "Banane (Cavendish)"},
     description: {
       tr: "Olgun ve tatlı Cavendish muzları. Potasyum kaynağı.",
-      de: "Reife und süße Cavendish-Bananen. Reich an Kalium.",
+      de: "Reife und süße Cavendish-Bananen. Eine Kaliumquelle.",
     },
     shortDescription: { tr: "Taze muz", de: "Frische Banane"},
     tags: { tr: ["meyve", "potasyum", "enerji"], de: ["obst", "kalium", "energie"]},
@@ -144,7 +144,7 @@ export const productContent = {
     name: { tr: "Domates (Salkım)", de: "Rispentomaten"},
     description: {
       tr: "Taze salkım domatesler. Salata ve yemekler için ideal.",
-      de: "Frische Rispentomaten. Ideal für Salate und warme Gerichte.",
+      de: "Frische Rispentomaten. Ideal für Salate und Gerichte.",
     },
     shortDescription: { tr: "Taze salkım domates", de: "Frische Rispentomaten"},
     tags: { tr: ["sebze", "domates", "taze"], de: ["gemüse", "tomate", "frisch"]},
@@ -155,7 +155,7 @@ export const productContent = {
     name: { tr: "Salatalık", de: "Gurke"},
     description: {
       tr: "Taze ve gevrek salatalıklar. Yaz salatalarının vazgeçilmezi.",
-      de: "Frische und knackige Gurken. Perfekt für sommerliche Salate.",
+      de: "Frische und knackige Gurken. Unverzichtbar für Sommersalate.",
     },
     shortDescription: { tr: "Taze salatalık", de: "Frische Gurke"},
     tags: { tr: ["sebze", "salatalık", "taze"], de: ["gemüse", "gurke", "frisch"]},
@@ -163,32 +163,32 @@ export const productContent = {
     metaDescription: { tr: "Taze gevrek salatalıklar", de: "Frische knackige Gurken"},
   },
   "prod-005": {
-    name: { tr: "Dana Kıyma (Az Yağlı)", de: "Rinderfaschiertes (mager)"},
+    name: { tr: "Dana Kıyma (Az Yağlı)", de: "Rinderhackfleisch (fettarm)"},
     description: {
       tr: "Taze dana kıyma, az yağlı. Günlük çekim.",
-      de: "Frisches mageres Rinderfaschiertes, täglich frisch vorbereitet.",
+      de: "Frisches Rinderhackfleisch, fettarm. Täglich frisch gewolft.",
     },
-    shortDescription: { tr: "Az yağlı dana kıyma", de: "Mageres Rinderfaschiertes"},
-    tags: { tr: ["et", "dana", "kıyma"], de: ["fleisch", "rind", "faschiertes"]},
-    metaTitle: { tr: "Dana Kıyma - Oba Supermarkt", de: "Rinderfaschiertes - Oba Supermarkt"},
-    metaDescription: { tr: "Az yağlı taze dana kıyma", de: "Frisches mageres Rinderfaschiertes"},
+    shortDescription: { tr: "Az yağlı dana kıyma", de: "Fettarmes Rinderhackfleisch"},
+    tags: { tr: ["et", "dana", "kıyma"], de: ["fleisch", "rind", "hackfleisch"]},
+    metaTitle: { tr: "Dana Kıyma - Oba Supermarkt", de: "Rinderhackfleisch - Oba Supermarkt"},
+    metaDescription: { tr: "Az yağlı taze dana kıyma", de: "Frisches fettarmes Rinderhackfleisch"},
   },
   "prod-006": {
-    name: { tr: "Tavuk Göğsü Fileto", de: "Hendlbrustfilet"},
+    name: { tr: "Tavuk Göğsü Fileto", de: "Hähnchenbrustfilet"},
     description: {
       tr: "Hijyenik koşullarda hazırlanmış tavuk göğsü fileto.",
-      de: "Hendlbrustfilet, hygienisch vorbereitet und frisch verpackt.",
+      de: "Hähnchenbrustfilet, unter hygienischen Bedingungen vorbereitet.",
     },
-    shortDescription: { tr: "Tavuk göğsü fileto", de: "Hendlbrustfilet"},
-    tags: { tr: ["tavuk", "et", "protein"], de: ["geflügel", "fleisch", "protein"]},
-    metaTitle: { tr: "Tavuk Göğsü - Oba Supermarkt", de: "Hendlbrustfilet - Oba Supermarkt"},
-    metaDescription: { tr: "Taze tavuk göğsü fileto", de: "Frisches Hendlbrustfilet"},
+    shortDescription: { tr: "Tavuk göğsü fileto", de: "Hähnchenbrustfilet"},
+    tags: { tr: ["tavuk", "et", "protein"], de: ["hähnchen", "fleisch", "protein"]},
+    metaTitle: { tr: "Tavuk Göğsü - Oba Supermarkt", de: "Hähnchenbrustfilet - Oba Supermarkt"},
+    metaDescription: { tr: "Taze tavuk göğsü fileto", de: "Frisches Hähnchenbrustfilet"},
   },
   "prod-007": {
     name: { tr: "Tam Yağlı Süt (1L)", de: "Vollmilch (1L)"},
     description: {
       tr: "Pastörize tam yağlı inek sütü. 1 litre.",
-      de: "Pasteurisierte Vollmilch aus Kuhmilch. 1 Liter.",
+      de: "Pasteurisierte Vollmilch. 1 Liter.",
     },
     shortDescription: { tr: "Tam yağlı süt 1L", de: "Vollmilch 1L"},
     tags: { tr: ["süt", "içecek", "kahvaltı"], de: ["milch", "getränk", "frühstück"]},
@@ -199,7 +199,7 @@ export const productContent = {
     name: { tr: "Beyaz Peynir (Tam Yağlı)", de: "Weißkäse (vollfett)"},
     description: {
       tr: "Geleneksel yöntemlerle üretilmiş tam yağlı beyaz peynir.",
-      de: "Vollfetter Weißkäse nach traditioneller Art hergestellt.",
+      de: "Vollfetter Weißkäse, der nach traditionellen Methoden hergestellt wurde.",
     },
     shortDescription: { tr: "Tam yağlı beyaz peynir", de: "Vollfetter Weißkäse"},
     tags: { tr: ["peynir", "kahvaltı", "süt ürünü"], de: ["käse", "frühstück", "molkerei"]},
@@ -207,21 +207,21 @@ export const productContent = {
     metaDescription: { tr: "Tam yağlı beyaz peynir", de: "Vollfetter Weißkäse"},
   },
   "prod-009": {
-    name: { tr: "Somun Ekmek", de: "Laib Brot"},
+    name: { tr: "Somun Ekmek", de: "Laibbrot"},
     description: {
       tr: "Günlük taze somun ekmek. İçi yumuşak, dışı çıtır.",
       de: "Täglich frisches Brot mit weicher Krume und knuspriger Kruste.",
     },
     shortDescription: { tr: "Taze somun ekmek", de: "Frisches Laibbrot"},
     tags: { tr: ["ekmek", "fırın", "taze"], de: ["brot", "backwaren", "frisch"]},
-    metaTitle: { tr: "Somun Ekmek - Oba Supermarkt", de: "Laib Brot - Oba Supermarkt"},
+    metaTitle: { tr: "Somun Ekmek - Oba Supermarkt", de: "Laibbrot - Oba Supermarkt"},
     metaDescription: { tr: "Günlük taze somun ekmek", de: "Täglich frisches Brot"},
   },
   "prod-010": {
     name: { tr: "Kruvasan (Tereyağlı)", de: "Buttercroissant"},
     description: {
       tr: "Fransız usulü tereyağlı kruvasan. Kahvaltının yıldızı.",
-      de: "Französisches Buttercroissant für einen starken Start in den Tag.",
+      de: "Croissant mit Butter nach französischer Art. Der Star des Frühstücks.",
     },
     shortDescription: { tr: "Tereyağlı kruvasan", de: "Buttercroissant"},
     tags: { tr: ["kruvasan", "fırın", "kahvaltı"], de: ["croissant", "backwaren", "frühstück"]},
@@ -232,9 +232,9 @@ export const productContent = {
     name: { tr: "Su (5L)", de: "Wasser (5L)"},
     description: {
       tr: "Doğal kaynak suyu. 5 litrelik pratik ambalaj.",
-      de: "Natürliches Quellwasser in praktischer 5-Liter-Verpackung.",
+      de: "Natürliches Quellwasser. Praktische 5-Liter-Verpackung.",
     },
-    shortDescription: { tr: "Doğal kaynak suyu 5L", de: "Quellwasser 5L"},
+    shortDescription: { tr: "Doğal kaynak suyu 5L", de: "Natürliches Quellwasser 5L"},
     tags: { tr: ["su", "içecek", "doğal"], de: ["wasser", "getränk", "natürlich"]},
     metaTitle: { tr: "Su 5L - Oba Supermarkt", de: "Wasser 5L - Oba Supermarkt"},
     metaDescription: { tr: "Doğal kaynak suyu 5L", de: "Natürliches Quellwasser 5L"},
@@ -243,10 +243,10 @@ export const productContent = {
     name: { tr: "Cola (1L)", de: "Cola (1L)"},
     description: {
       tr: "Klasik cola tadı. 1 litre.",
-      de: "Klassischer Cola-Geschmack in der 1-Liter-Flasche.",
+      de: "Klassischer Cola-Geschmack. 1 Liter.",
     },
     shortDescription: { tr: "Cola 1L", de: "Cola 1L"},
-    tags: { tr: ["meşrubat", "cola", "içecek"], de: ["limonade", "cola", "getränk"]},
+    tags: { tr: ["meşrubat", "cola", "içecek"], de: ["erfrischungsgetränk", "cola", "getränk"]},
     metaTitle: { tr: "Cola - Oba Supermarkt", de: "Cola - Oba Supermarkt"},
     metaDescription: { tr: "Klasik cola 1L", de: "Klassische Cola 1L"},
   },
@@ -254,7 +254,7 @@ export const productContent = {
     name: { tr: "Cips (Klasik)", de: "Kartoffelchips (klassisch)"},
     description: {
       tr: "Klasik patates cipsi. Aile boyu paket.",
-      de: "Klassische Kartoffelchips in der Familienpackung.",
+      de: "Klassische Kartoffelchips. Familienpackung.",
     },
     shortDescription: { tr: "Klasik cips", de: "Klassische Kartoffelchips"},
     tags: { tr: ["cips", "atıştırmalık", "abur cubur"], de: ["kartoffelchips", "knabberei", "salzig"]},
@@ -265,7 +265,7 @@ export const productContent = {
     name: { tr: "Çikolata (Sütlü)", de: "Milchschokolade"},
     description: {
       tr: "Sütlü çikolata. %30 kakao içeriği.",
-      de: "Milchschokolade mit 30 Prozent Kakaoanteil.",
+      de: "Milchschokolade. 30 % Kakaoanteil.",
     },
     shortDescription: { tr: "Sütlü çikolata", de: "Milchschokolade"},
     tags: { tr: ["çikolata", "tatlı", "atıştırmalık"], de: ["schokolade", "süß", "nascherei"]},
@@ -276,10 +276,10 @@ export const productContent = {
     name: { tr: "Pirinç (Osmancık)", de: "Reis (Osmancık)"},
     description: {
       tr: "Osmancık pirinç. 1 kg.",
-      de: "Osmancık-Reis in der 1-kg-Packung.",
+      de: "Osmancık-Reis. 1 kg.",
     },
     shortDescription: { tr: "Osmancık pirinç 1kg", de: "Osmancık-Reis 1kg"},
-    tags: { tr: ["pirinç", "bakliyat", "temel gıda"], de: ["reis", "grundnahrung", "vorrat"]},
+    tags: { tr: ["pirinç", "bakliyat", "temel gıda"], de: ["reis", "vorrat", "grundnahrungsmittel"]},
     metaTitle: { tr: "Pirinç - Oba Supermarkt", de: "Reis - Oba Supermarkt"},
     metaDescription: { tr: "Osmancık pirinç 1kg", de: "Osmancık-Reis 1kg"},
   },
@@ -298,9 +298,9 @@ export const productContent = {
     name: { tr: "Sıvı Sabun (500ml)", de: "Flüssigseife (500ml)"},
     description: {
       tr: "Antibakteriyel sıvı sabun. 500ml.",
-      de: "Antibakterielle Flüssigseife in der 500-ml-Flasche.",
+      de: "Antibakterielle Flüssigseife. 500 ml.",
     },
-    shortDescription: { tr: "Sıvı sabun 500ml", de: "Flüssigseife 500ml"},
+    shortDescription: { tr: "Sıvı sabun 500ml", de: "Flüssigseife 500 ml"},
     tags: { tr: ["sabun", "temizlik", "hijyen"], de: ["seife", "reinigung", "hygiene"]},
     metaTitle: { tr: "Sıvı Sabun - Oba Supermarkt", de: "Flüssigseife - Oba Supermarkt"},
     metaDescription: { tr: "Antibakteriyel sıvı sabun", de: "Antibakterielle Flüssigseife"},
@@ -309,9 +309,9 @@ export const productContent = {
     name: { tr: "Çamaşır Deterjanı", de: "Waschmittel"},
     description: {
       tr: "Konsantre çamaşır deterjanı. 2 kg.",
-      de: "Konzentriertes Waschmittel in der 2-kg-Packung.",
+      de: "Konzentriertes Waschmittel. 2 kg.",
     },
-    shortDescription: { tr: "Çamaşır deterjanı 2kg", de: "Waschmittel 2kg"},
+    shortDescription: { tr: "Çamaşır deterjanı 2kg", de: "Waschmittel 2 kg"},
     tags: { tr: ["deterjan", "temizlik", "çamaşır"], de: ["waschmittel", "reinigung", "wäsche"]},
     metaTitle: { tr: "Çamaşır Deterjanı - Oba Supermarkt", de: "Waschmittel - Oba Supermarkt"},
     metaDescription: { tr: "Konsantre çamaşır deterjanı", de: "Konzentriertes Waschmittel"},
@@ -330,73 +330,73 @@ export const productContent = {
 
 export const promotionContent = {
   "promo-001": {
-    title: { tr: "Hafta Sonu İndirimi", de: "Wochenend-Aktion"},
+    title: { tr: "Hafta Sonu İndirimi", de: "Wochenendrabatt"},
     description: {
       tr: "Seçili ürünlerde %20'ye varan indirimler! Bu hafta sonu kaçırmayın.",
-      de: "Bis zu 20 Prozent Rabatt auf ausgewählte Produkte. Nur dieses Wochenende.",
+      de: "Bis zu 20 % Rabatt auf ausgewählte Produkte! Verpassen Sie es dieses Wochenende nicht.",
     },
   },
   "promo-002": {
-    title: { tr: "Meyve & Sebze Fırsatı", de: "Obst- & Gemüse-Aktion"},
+    title: { tr: "Meyve & Sebze Fırsatı", de: "Obst- & Gemüseangebot"},
     description: {
       tr: "Taze meyve ve sebzelerde özel fiyatlar! Sağlıklı beslenmeyi uygun fiyata yakalayın.",
-      de: "Sonderpreise für frisches Obst und Gemüse. Gesund einkaufen und sparen.",
+      de: "Sonderpreise auf frisches Obst und Gemüse! Profitieren Sie von gesunder Ernährung zu einem günstigen Preis.",
     },
   },
   "promo-003": {
-    title: { tr: "Kahvaltı Paketi Kampanyası", de: "Aktion Frühstückspaket"},
+    title: { tr: "Kahvaltı Paketi Kampanyası", de: "Frühstückspaket-Aktion"},
     description: {
       tr: "Kahvaltılık ürünlerde 3 al 2 öde! Peynir, zeytin, reçel ve daha fazlası.",
-      de: "3 für 2 bei Frühstücksartikeln wie Käse, Oliven, Marmelade und mehr.",
+      de: "3 kaufen, 2 bezahlen bei Frühstücksprodukten! Käse, Oliven, Marmelade und mehr.",
     },
   },
   "promo-004": {
-    title: { tr: "Temizlik Ürünlerinde Büyük İndirim", de: "Große Aktion auf Reinigungsprodukte"},
+    title: { tr: "Temizlik Ürünlerinde Büyük İndirim", de: "Großer Rabatt auf Reinigungsprodukte"},
     description: {
       tr: "Tüm temizlik ürünlerinde 25 EUR ve üzeri alışverişe 5 EUR indirim!",
-      de: "5 EUR Rabatt ab 25 EUR Einkaufswert auf alle Reinigungsprodukte.",
+      de: "5 EUR Rabatt auf alle Reinigungsprodukte bei einem Einkauf ab 25 EUR!",
     },
   },
   "promo-005": {
-    title: { tr: "Atıştırmalık Festivali", de: "Snack-Aktion"},
+    title: { tr: "Atıştırmalık Festivali", de: "Snack-Festival"},
     description: {
       tr: "Cips, çikolata ve atıştırmalıklarda %25 indirim! Film gecelerinin vazgeçilmezi.",
-      de: "25 Prozent Rabatt auf Chips, Schokolade und Knabbereien. Perfekt für den Filmabend.",
+      de: "25 % Rabatt auf Chips, Schokolade und Snacks! Unverzichtbar für Filmabende.",
     },
   },
   "promo-006": {
     title: { tr: "Yeni Yıl Temizlik Kampanyası", de: "Neujahrs-Aktion für Reinigungsprodukte"},
     description: {
       tr: "Yeni yıla özel temizlik ürünlerinde %30 indirim!",
-      de: "30 Prozent Rabatt auf Reinigungsprodukte zum Jahreswechsel.",
+      de: "30 % Rabatt auf Reinigungsprodukte zum neuen Jahr!",
     },
   },
   "promo-007": {
-    title: { tr: "Çarşamba Et Günü", de: "Fleisch-Aktion am Mittwoch"},
+    title: { tr: "Çarşamba Et Günü", de: "Mittwoch ist Fleischtag"},
     description: {
       tr: "Her çarşamba taze kırmızı et ve tavukta %18 indirim. Kasap reyonunda geçerli.",
-      de: "Jeden Mittwoch 18 Prozent Rabatt auf frisches Fleisch und Geflügel.",
+      de: "Jeden Mittwoch 18 % Rabatt auf frisches rotes Fleisch und Hähnchen. Gültig an der Fleischtheke.",
     },
   },
   "promo-008": {
-    title: { tr: "Süt Ürünleri Fırsatı", de: "Milchprodukte-Aktion"},
+    title: { tr: "Süt Ürünleri Fırsatı", de: "Angebot für Milchprodukte"},
     description: {
       tr: "Yoğurt, peynir ve sütte 3 al 2 öde. Kahvaltıyı tamamlayın.",
-      de: "3 für 2 auf Joghurt, Käse und Milch. Ideal für den Frühstückseinkauf.",
+      de: "3 kaufen, 2 bezahlen bei Joghurt, Käse und Milch. Machen Sie das Frühstück komplett.",
     },
   },
   "promo-009": {
-    title: { tr: "İçeceklerde Sepet İndirimi", de: "Getränke-Aktion"},
+    title: { tr: "İçeceklerde Sepet İndirimi", de: "Warenkorb-Rabatt auf Getränke"},
     description: {
       tr: "Gazlı içecek ve meyve suyunda 35 EUR ve üzeri alışverişe 6 EUR anında indirim.",
-      de: "6 EUR Sofortrabatt ab 35 EUR auf Softdrinks und Fruchtsäfte.",
+      de: "Sofort 6 EUR Rabatt auf kohlensäurehaltige Getränke und Fruchtsaft bei einem Einkauf ab 35 EUR.",
     },
   },
   "promo-010": {
-    title: { tr: "Dondurma Festivali", de: "Eis-Aktion"},
+    title: { tr: "Dondurma Festivali", de: "Eiscreme-Festival"},
     description: {
       tr: "Seçili dondurma ve tatlılarda %22 indirim. Yaz lezzetleri raflarda.",
-      de: "22 Prozent Rabatt auf ausgewähltes Eis und Desserts. Sommergenuss im Regal.",
+      de: "22 % Rabatt auf ausgewähltes Eis und Desserts. Sommergeschmack in den Regalen.",
     },
   },
 } satisfies Record<string, { title: LocalizedText; description: LocalizedText }>;

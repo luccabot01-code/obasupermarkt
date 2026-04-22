@@ -177,27 +177,27 @@ const aboutPageCopy = {
   },
   de: {
     title: "Über uns",
-    description: "Oba Supermarkt - Ihr Nahversorger in Wien mit Fleischtheke, täglichen Backwaren, Frühstücksartikeln, Reinigungsprodukten und vielem mehr unter einem Dach.",
+    description: "Oba Supermarkt - der Nachbarschafts-Supermarkt in Wien, der Fleischtheke, tägliche Backwaren, Frühstücksartikel, Reinigungsprodukte und vieles mehr unter einem Dach vereint.",
     region: "Österreich · Wien",
     intro:
-      "Oba Supermarkt ist Ihr Nahversorger im Gebiet Laaer Berg. Von der Fleischtheke über täglich frisches Brot und Gebäck bis zu Frühstücksartikeln und Reinigungsprodukten bringen wir den täglichen Einkauf an einem Ort zusammen.",
+      "ein Supermarkt, der seine Nachbarschaft in der Region Laaer Berg bedient. Von der Fleischtheke über tägliches Brot und Poğaça bis hin zu Frühstücksartikeln und Reinigungsprodukten legen wir Wert darauf, die täglichen Bedürfnisse des Haushalts unter einem Dach zusammenzubringen.",
     paragraph1:
-      "Als Markt in Österreich achten wir auf hohe Qualitätsstandards, gepflegte Regale und hygienische Abläufe. In unserer Fleischabteilung finden Sie täglich frische Ware, im Backwarenbereich Brot und Gebäck, und bei den Frühstücksartikeln eine breite Auswahl für den Start in den Tag.",
+      "Als Markt in Österreich wählen wir Produkte nach Qualitätsstandards aus und halten unsere Regale ordentlich und hygienisch. In unserer Fleischabteilung bieten wir täglich frische Produkte, in unserer Backabteilung Brot- und Poğaça-Sorten und in unseren Frühstücksregalen eine große Auswahl für einen guten Start in den Tag.",
     paragraph2:
-      "Unser Ziel ist es, Ihnen im schnellen Stadtalltag Zeit zu sparen: von Obst und Gemüse über Getränke und Basisprodukte bis hin zu Reinigungs- und Haushaltsartikeln finden Sie alles an einem Ort. Mit unseren Wochenaktionen schonen wir außerdem Ihr Budget.",
-    freshnessTitle: "Täglich frisch",
+      "Unser Ziel ist es, Ihnen im schnellen Stadtleben Zeit zu sparen: Von Obst und Gemüse über Grundnahrungsmittel, von Getränken und Snacks bis hin zu Reinigungs- und Haushaltsartikeln und täglichen Backwaren sind wir hier, damit Sie alles, was Sie von einem Supermarkt erwarten, an einem Ort erledigen können. Mit unseren wöchentlichen Aktionen nehmen wir außerdem Rücksicht auf Ihr Budget.",
+    freshnessTitle: "Tägliche Frische",
     freshnessBody:
-      "In den Abteilungen für Obst, Gemüse, Fleisch und Backwaren achten wir auf raschen Warenwechsel und täglich frische Auslage mit Brot, Gebäck und weiteren frischen Produkten.",
-    neighborhoodTitle: "Große Auswahl",
+      "In den Abteilungen für Obst, Gemüse, Fleisch und Backwaren halten wir die Rotation hoch; mit täglichem Brot, Poğaça und frischen Produkten bieten wir unseren Kundinnen und Kunden jeden Tag ein erneuertes Einkaufserlebnis.",
+    neighborhoodTitle: "Große Vielfalt",
     neighborhoodBody:
-      "In Wien 1100 schaffen wir eine gut gefüllte Marktatmosphäre mit Frühstücksartikeln, Getränken, Snacks, Reinigungsprodukten und vielen weiteren Dingen des täglichen Bedarfs.",
+      "In Wien 1100 achten wir darauf, eine gut gefüllte Marktatmosphäre zu schaffen, in der Frühstücksartikel, Getränke, Snacks, Reinigungsprodukte und viele weitere Dinge, die man zu Hause brauchen kann, zusammen angeboten werden.",
     trustTitle: "Vertrauen und Ordnung",
     trustBody:
-      "Mit klar ausgezeichneten Preisen, transparenter Information, sauberer Warenpräsentation und hygienischen Abläufen bieten wir verlässlichen Service.",
+      "Mit ausgezeichneten Preisen, klaren Informationen, geordneten Regalen und einem auf Hygiene ausgerichteten Marktverständnis bieten wir einen transparenten Service, der unseren Kundinnen und Kunden Vertrauen gibt.",
     locationTitle: "Unser Standort in Wien",
-    locationBodyBefore: "Für die Anfahrt mit Auto oder Öffis können Sie die Route in der Karte aufrufen; unsere Öffnungszeiten finden Sie auf unserer",
+    locationBodyBefore: "Für die Anfahrt mit dem Auto oder öffentlichen Verkehrsmitteln können Sie sich über die Karte die Wegbeschreibung holen; unsere Öffnungszeiten können Sie auf unserer",
     locationLink: "Kontaktseite",
-    locationBodyAfter: ".",
+    locationBodyAfter: "sehen.",
     productsCta: "Produkte ansehen",
     contactCta: "Kontakt und Öffnungszeiten",
   },
@@ -224,8 +224,8 @@ const contactPageCopy = {
   },
   de: {
     title: "Kontakt",
-    description: "Kontaktinformationen von Oba Supermarkt. Adresse, Telefon und Öffnungszeiten für Fleischtheke, tägliche Backwaren, Frühstücksartikel, Reinigungsprodukte und den gesamten Wocheneinkauf.",
-    hero: "Für Fragen zu unserer Fleischtheke, zu täglich frischem Brot und Gebäck, Frühstücksartikeln, Reinigungsprodukten oder Ihrem allgemeinen Einkauf erreichen Sie uns über die folgenden Kontaktdaten. Wir helfen Ihnen gerne weiter.",
+    description: "Kontaktinformationen von Oba Supermarkt. Adresse, Telefon und Öffnungszeiten für Fleischtheke, tägliche Backwaren, Frühstücksartikel, Reinigungsprodukte und alle Ihre Marktbedürfnisse.",
+    hero: "Für Fleischtheke, tägliche Brot- und Poğaça-Sorten, Frühstücksartikel, Reinigungsprodukte und Ihre anderen Marktbedürfnisse können Sie uns über die folgenden Informationen erreichen. Wir helfen Ihnen gerne weiter.",
     storeStatus: "Marktstatus",
     open: "Jetzt geöffnet",
     closed: "Jetzt geschlossen",
@@ -233,10 +233,10 @@ const contactPageCopy = {
     phone: "Telefon",
     email: "E-Mail",
     hours: "Öffnungszeiten",
-    hoursNote: "Hier finden Sie unsere Öffnungszeiten, damit Sie Ihren täglichen Einkauf besser planen können.",
+    hoursNote: "Hier können Sie unsere Öffnungszeiten verfolgen, damit Sie Ihren täglichen Einkauf planen können.",
     social: "Social Media",
     location: "Standort",
-    mapNeedsKey: "Für die Kartenintegration wird ein Google-Maps-API-Schlüssel benötigt.",
+    mapNeedsKey: "Für die Kartenintegration ist ein Google-Maps-API-Schlüssel erforderlich.",
     openMaps: "In Google Maps öffnen",
     open24: "24 Stunden geöffnet",
   },
@@ -303,59 +303,59 @@ const faqPageCopy: Record<Locale, FaqPageCopy> = {
   de: {
     title: "Häufige Fragen",
     description:
-      "Antworten zu Öffnungszeiten, Standort, Zahlung, Sortiment und Einkauf bei Oba Supermarkt.",
+      "Was man über Öffnungszeiten, Adresse, Zahlung, Produkte und den Einkauf bei Oba Supermarkt wissen möchte.",
     backHome: "Startseite",
     intro:
-      "Hier finden Sie Antworten rund um unseren Nahversorger am Laaer Berg. Für individuelle Fragen erreichen Sie uns über die Kontaktseite oder direkt im Markt.",
+      "Unten haben wir die häufigsten Fragen zu unserem Nachbarschaftsmarkt in der Region Laaer Berg gesammelt. Wenn Sie eine andere Frage haben, können Sie uns über unsere Kontaktseite oder direkt in unserem Markt erreichen.",
     items: [
       {
         question: "Wie sind Ihre Öffnungszeiten?",
         answer:
-          "Montag bis Freitag in der Regel 08:00–19:30 Uhr, Samstag 08:00–18:00 Uhr; sonntags geschlossen. Bitte prüfen Sie die aktuelle Tabelle im Footer oder im Markt – Änderungen sind möglich.",
+          "In der Regel sind wir werktags von 08:00 bis 19:30 Uhr und samstags von 08:00 bis 18:00 Uhr geöffnet; sonntags haben wir geschlossen. Für aktuelle und genaue Zeiten können Sie die Tabelle mit den Öffnungszeiten im Kontaktbereich unserer Website oder die Informationen am Markteingang prüfen.",
       },
       {
         question: "Wo liegt der Markt und wie komme ich hin?",
         answer:
-          "Unsere Adresse ist Laaer-Berg-Straße 14, 1100 Wien. Den Kartenausschnitt finden Sie auf der Kontaktseite und in der Fußzeile der Website.",
+          "Wir befinden uns in der Laaer-Berg-Straße 14, 1100 Wien. Der Kartenlink befindet sich im Kontaktbereich und im Footer; dort können Sie Ihre Route mit öffentlichen Verkehrsmitteln oder dem Auto planen.",
       },
       {
         question: "Gibt es Online-Bestellung oder Lieferung?",
         answer:
-          "Die Website informiert über Sortiment und Aktionen; Bestellung und Lieferung können künftig angekündigt werden. Aktuelle Möglichkeiten erfahren Sie telefonisch oder vor Ort im Markt.",
+          "Derzeit dient unsere Website dazu, Produkte und Aktionen vorzustellen; Bestell- und Lieferprozesse können in Zukunft angekündigt werden. Für aktuelle Informationen können Sie unseren Markt anrufen oder uns besuchen.",
       },
       {
         question: "Stimmen die Preise auf der Website mit dem Markt überein?",
         answer:
-          "Online dargestellte Preise und Aktionen dienen der Orientierung. Maßgeblich sind die Preise am Regal und an der Kasse sowie geltende Aktionen im Markt.",
+          "Aktions- und Produktinformationen dienen der Information. Der genaue Preis, Rabatt und Lagerbestand richtet sich nach den Etiketten und der Kassenanwendung im Markt; im Zweifel können Sie unser Kassen- oder Regalpersonal fragen.",
       },
       {
         question: "Welche Zahlungsarten akzeptieren Sie?",
         answer:
-          "In der Regel Barzahlung sowie gängige Bank- und Kreditkarten. Hinweise zu Sonderaktionen oder Ausnahmen finden Sie im Markt.",
+          "In der Regel werden Bargeld sowie gängige Bank- und Kreditkarten akzeptiert. Für besondere Fälle oder Aktionen beachten Sie bitte die aktuelle Information in unserem Markt.",
       },
       {
         question: "Wie funktionieren Umtausch oder Rückgabe?",
         answer:
-          "Bei Lebensmitteln gelten aus Hygienegründen oft eingeschränkte Rückgabemöglichkeiten. Bewahren Sie den Kassenbon auf und wenden Sie sich bei Problemen möglichst am selben Tag an die Kasse oder unser Team vor Ort.",
+          "Aufgrund von Lebensmittelsicherheit und Hygiene können die Rückgabebedingungen bei vielen Produktgruppen eingeschränkt sein. Bewahren Sie Ihren Beleg auf; bei Unzufriedenheit oder mangelhafter Ware wenden Sie sich bitte noch am selben Tag an unsere Kasse oder unseren Kundenservice.",
       },
       {
         question: "Gibt es eine Fleischtheke und täglich frische Backwaren?",
         answer:
-          "Ja – wir bündeln unter anderem Fleischwaren, täglich frisches Brot und Gebäck sowie Frühstücks- und Grundsortiment. Das Angebot kann je nach Saison und Lieferung variieren.",
+          "Ja; wir möchten unter einem Dach eine Fleischtheke, tägliche Brot- und Backwaren sowie frische Lebensmittel und Produkte des täglichen Bedarfs anbieten. Die Auswahl kann je nach Saison und Lieferung variieren.",
       },
       {
         question: "Gibt es Parkplätze oder Fahrradstellplätze?",
         answer:
-          "In der Umgebung gibt es je nach Lage Straßenparkplätze oder Kurzparkzonen. Bitte beachten Sie die Wiener Parkregeln; bei konkreten Fragen helfen wir gerne telefonisch weiter.",
+          "Je nach Lage kann es Parkmöglichkeiten an der Straße oder in der Nähe geben. Wenn Sie mit dem Auto kommen, empfehlen wir, die ausgeschilderten Bereiche und die Wiener Parkregeln zu beachten; für genaue Informationen zum Bereich vor dem Markt können Sie uns anrufen.",
       },
       {
         question: "Wie erreiche ich Sie telefonisch oder per E-Mail?",
         answer:
-          "Telefonnummer und E-Mail-Adresse stehen auf der Kontaktseite und im Footer. Außerhalb der Öffnungszeiten bemühen wir uns um eine zeitnahe Rückmeldung.",
+          "Unsere Telefonnummer und E-Mail-Adresse stehen auf der Kontaktseite und im Footer der Website. Auf Nachrichten, die Sie außerhalb der Öffnungszeiten hinterlassen, antworten wir so schnell wie möglich.",
       },
     ],
     disclaimer:
-      "Diese FAQ ersetzt keine individuelle Auskunft vor Ort; Aktionen, gesetzliche Vorgaben und Markthinweise gehen vor.",
+      "Dieser FAQ-Text dient der allgemeinen Information; besondere Aktionen, rechtliche Regelungen oder Hinweise im Markt haben Vorrang.",
   },
 };
 
@@ -419,59 +419,59 @@ const legalCopy = {
     },
     de: {
       title: "Datenschutz",
-      description: "Informationen zum Datenschutz und zur Verarbeitung personenbezogener Daten bei Oba Supermarkt.",
+      description: "Informationen von Oba Supermarkt zum Datenschutz und zum Schutz personenbezogener Daten.",
       backHome: "Startseite",
       updated: "Zuletzt aktualisiert",
       sections: [
         {
           title: "1. Allgemeines",
           paragraphs: [
-            "Diese Datenschutzhinweise erklären in allgemeiner Form, wie personenbezogene Daten verarbeitet werden können, wenn Sie die Website von Oba Supermarkt besuchen oder mit uns Kontakt aufnehmen.",
-            "Der Text orientiert sich an den in Österreich und der Europäischen Union geltenden Datenschutzgrundsätzen.",
+            "Diese Datenschutzrichtlinie erklärt, wie Ihre personenbezogenen Daten verarbeitet werden können, wenn Sie unsere Website besuchen oder mit uns Kontakt aufnehmen.",
+            "Unsere Richtlinie wurde als allgemeiner Informationstext erstellt, der die Datenschutzregeln in Österreich und der Europäischen Union berücksichtigt.",
           ],
         },
         {
           title: "2. Verantwortliche Stelle",
           paragraphs: [
-            "Bei Fragen zu personenbezogenen Daten können Sie uns über die Kanäle auf der Kontaktseite erreichen. Wir bemühen uns um eine zeitnahe Rückmeldung.",
+            "Für Fragen zu Ihren personenbezogenen Daten können Sie uns über die Kanäle auf der Kontaktseite erreichen. Wir bemühen uns, Ihre Anliegen innerhalb einer angemessenen Frist zu beantworten.",
           ],
         },
         {
           title: "3. Erhobene Daten und Zwecke",
-          paragraphs: ["Zum Beispiel können Daten in folgenden Situationen verarbeitet werden:"],
+          paragraphs: ["Beispielsweise können Daten in den folgenden Situationen verarbeitet werden:"],
           list: [
-            "Kontaktanfragen per E-Mail oder Telefon inklusive Kontaktdaten und Nachrichteninhalt.",
-            "Technische Serverprotokolle für Sicherheit, Fehleranalyse und Verbesserung.",
-            "Cookies oder ähnliche Technologien für Funktionalität oder Analyse.",
+            "Name, Kontaktdaten und Nachrichteninhalt, um Ihre Kontaktanfragen zu beantworten.",
+            "Zeitlich begrenzte Serverprotokolle für technische Sicherheit, Fehlerbehebung und Verbesserungen.",
+            "Cookie-ähnliche Technologien, die für die Funktionalität oder Analyse der Website verwendet werden.",
           ],
         },
         {
           title: "4. Speicherdauer und Sicherheit",
           paragraphs: [
-            "Daten werden nur so lange gespeichert, wie es für den jeweiligen Zweck und für gesetzliche Verpflichtungen erforderlich ist. Geeignete organisatorische und technische Maßnahmen werden angestrebt.",
+            "Daten werden so lange gespeichert, wie es der Zweck der Erhebung erfordert und wie es die gesetzlichen Verpflichtungen vorsehen. Geeignete technische und organisatorische Maßnahmen werden angestrebt.",
           ],
         },
         {
           title: "5. Ihre Rechte",
           paragraphs: [
-            "Je nach anwendbarem Recht können Sie Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung und Widerspruch geltend machen.",
+            "Im Rahmen der geltenden Gesetzgebung können Sie Ihre Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch ausüben.",
           ],
         },
         {
           title: "6. Dritte und Links",
           paragraphs: [
-            "Unsere Website kann Links zu externen Seiten enthalten. Für deren Datenschutzpraxis sind wir nicht verantwortlich.",
+            "Auf unserer Website können Links zu Seiten Dritter enthalten sein. Für die Datenschutzpraktiken dieser Seiten sind wir nicht verantwortlich.",
           ],
         },
         {
           title: "7. Änderungen dieser Hinweise",
           paragraphs: [
-            "Wir können diese Informationen anpassen, wenn sich unsere Leistungen oder rechtliche Anforderungen ändern.",
+            "Wir können diesen Text aktualisieren, wenn sich unsere Dienstleistungen oder die rechtlichen Anforderungen ändern.",
           ],
         },
       ],
       disclaimer:
-        "Dieser Text ist ein Beispiel bzw. Entwurf und ersetzt keine Rechtsberatung. Verbindliche und aktuelle Fassungen können später veröffentlicht werden.",
+        "Der Text auf dieser Seite hat Beispiel- bzw. Entwurfscharakter und ersetzt keine Rechtsberatung. Verbindliche und aktuelle Texte werden später veröffentlicht.",
     },
   },
   terms: {
@@ -544,60 +544,60 @@ const legalCopy = {
       updated: "Zuletzt aktualisiert",
       sections: [
         {
-          title: "1. Zustimmung",
+          title: "1. Annahme",
           paragraphs: [
-            "Mit der Nutzung dieser Website gehen wir davon aus, dass Sie die folgenden Nutzungsbedingungen gelesen und akzeptiert haben.",
+            "Durch die Nutzung dieser Website gehen wir davon aus, dass Sie die folgenden Nutzungsbedingungen gelesen haben und sich damit einverstanden erklären.",
           ],
         },
         {
           title: "2. Art des Dienstes",
           paragraphs: [
-            "Die Website dient dazu, Informationen über Oba Supermarkt bereitzustellen und Produkte sowie Aktionen vorzustellen.",
-            "Preise, Verfügbarkeiten, Aktionen und Bilder dienen der Information; der aktuelle Stand im Markt kann abweichen.",
+            "Die Website wird veröffentlicht, um Informationen über Oba Supermarkt bereitzustellen und Produkt- oder Aktionsinhalte vorzustellen.",
+            "Preise, Lagerbestand, Aktionen und Bilder auf der Website dienen der Information; die aktuelle Situation im Markt kann abweichen.",
           ],
         },
         {
           title: "3. Geistiges Eigentum und Inhalte",
           paragraphs: [
-            "Texte, Bilder, Logos und Gestaltungselemente der Website können rechtlich geschützt sein. Eine unautorisierte Vervielfältigung oder kommerzielle Nutzung ist nicht erlaubt.",
+            "Texte, Bilder, Logos und Designelemente auf der Website können nach den einschlägigen Vorschriften geschützt sein. Unerlaubte Vervielfältigung und kommerzielle Nutzung sind untersagt.",
           ],
         },
         {
           title: "4. Verhalten der Nutzer",
-          paragraphs: ["Bei der Nutzung der Website wird insbesondere erwartet, dass Sie:"],
+          paragraphs: ["Bei der Nutzung der Website wird insbesondere erwartet, dass Sie Folgendes beachten:"],
           list: [
-            "keine rechtswidrigen Handlungen oder Verletzungen fremder Rechte begehen,",
-            "die Website nicht schädigen, überlasten oder die Sicherheit gefährden,",
-            "keine irreführenden oder böswilligen Informationen verbreiten.",
+            "keine Tätigkeiten ausüben, die gegen Gesetze oder die Rechte Dritter verstoßen.",
+            "die Website nicht in einer Weise nutzen, die Schaden verursacht, übermäßige Last erzeugt oder die Sicherheit gefährdet.",
+            "keine irreführenden oder böswilligen Informationen teilen.",
           ],
         },
         {
           title: "5. Haftungsbeschränkung",
           paragraphs: [
-            "Die Website wird wie gesehen bereitgestellt. Trotz sorgfältiger Pflege wird keine Gewähr für Vollständigkeit oder unterbrechungsfreien Zugriff übernommen.",
+            "Die Website wird so bereitgestellt, wie sie ist. Auch wenn versucht wird, möglichst richtige und aktuelle Informationen bereitzustellen, werden Vollständigkeit und unterbrechungsfreier Zugang nicht garantiert.",
           ],
         },
         {
           title: "6. Links",
           paragraphs: [
-            "Die Website kann Links zu Angeboten Dritter enthalten. Für deren Inhalte oder Sicherheit übernehmen wir keine Verantwortung.",
+            "Auf der Website können Links zu Websites Dritter enthalten sein. Für den Inhalt oder die Sicherheit dieser Seiten sind wir nicht verantwortlich.",
           ],
         },
         {
           title: "7. Anwendbares Recht und Gerichtsstand",
           paragraphs: [
-            "Es kann österreichisches Recht gelten; zwingende Verbraucherrechte bleiben unberührt.",
+            "Bei Streitigkeiten können die in Österreich geltenden Rechtsvorschriften und zuständigen Gerichte maßgeblich sein; zwingende Verbraucherrechte bleiben vorbehalten.",
           ],
         },
         {
           title: "8. Änderungen",
           paragraphs: [
-            "Wir können diese Bedingungen ohne Vorankündigung anpassen. Maßgeblich ist die jeweils veröffentlichte Fassung.",
+            "Wir können diese Bedingungen ohne vorherige Ankündigung aktualisieren. Maßgeblich ist der Text, der zum Zeitpunkt der Veröffentlichung gilt.",
           ],
         },
       ],
       disclaimer:
-        "Dieser Text ist ein Beispiel bzw. Entwurf und ersetzt keine Rechtsberatung. Verbindliche und aktuelle Fassungen können später veröffentlicht werden.",
+        "Der Text auf dieser Seite hat Beispiel- bzw. Entwurfscharakter und ersetzt keine Rechtsberatung. Verbindliche und aktuelle Texte werden später veröffentlicht.",
     },
   },
 } satisfies {
@@ -636,8 +636,6 @@ export function getTermsPageCopy(locale: Locale) {
 export function getFaqPageCopy(locale: Locale) {
   return faqPageCopy[locale];
 }
-
-
 
 
 
