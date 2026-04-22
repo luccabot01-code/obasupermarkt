@@ -28,7 +28,7 @@ const geistMono = Geist_Mono({
 });
 
 const localizedKeywords = {
-  de: ["Supermarkt", "Lebensmittel", "Rabatte", "Aktionen", "frische Produkte", "Oba Supermarkt"],
+  de: ["Supermarkt", "Frischwaren", "Sonderangebote", "Aktionen", "frische Produkte", "Oba Supermarkt"],
   tr: ["süpermarket", "gıda", "indirimler", "kampanyalar", "taze ürünler", "Oba Supermarkt"],
 } as const;
 

@@ -11,11 +11,11 @@ function pick<T>(localized: Record<Locale, T>, locale?: Locale): T {
 export const storeContent = {
   tagline: {
     tr: "Taze Ürünler, Haftalık İndirimler",
-    de: "Frische Produkte, wöchentliche Rabatte",
+    de: "Frische Produkte, wöchentliche Aktionen",
   },
   description: {
     tr: "Oba Supermarkt olarak müşterilerimize kasap reyonundan günlük ekmek ve poğaça çeşitlerine, kahvaltılıklardan temizlik ürünlerine kadar geniş bir ürün yelpazesi sunuyoruz. Taze ürünler, düzenli reyonlar ve günlük ihtiyaçları tek yerde tamamlama kolaylığıyla hizmetinizdeyiz.",
-    de: "Als Oba Supermarkt bieten wir unseren Kundinnen und Kunden ein breites Sortiment, von der Fleischtheke über täglich frisches Brot und Poğaça-Sorten bis hin zu Frühstücksartikeln und Reinigungsprodukten. Mit frischen Produkten, geordneten Regalen und der Möglichkeit, den täglichen Bedarf an einem Ort zu decken, sind wir für Sie da.",
+    de: "Als Oba Supermarkt bieten wir unseren Kundinnen und Kunden ein breites Sortiment, von der Fleischtheke über täglich frisches Brot und Poğaça bis hin zu Frühstücksartikeln und Reinigungsprodukten. Mit frischen Produkten, ordentlich geführten Regalen und der Möglichkeit, den täglichen Bedarf an einem Ort zu erledigen, sind wir gerne für Sie da.",
   },
   country: {
     tr: "Avusturya",
@@ -27,7 +27,7 @@ export const storeContent = {
   },
   metaDescription: {
     tr: "Oba Supermarkt - Kasap, günlük fırın ürünleri, kahvaltılıklar, temizlik ürünleri ve daha fazlası. Online ürün kataloğumuzu keşfedin!",
-    de: "Oba Supermarkt - Fleischtheke, tägliche Backwaren, Frühstücksartikel, Reinigungsprodukte und vieles mehr. Entdecken Sie unseren Online-Produktkatalog!",
+    de: "Oba Supermarkt - Fleischtheke, tägliche Backwaren, Frühstücksartikel, Reinigungsprodukte und vieles mehr. Entdecken Sie unseren Produktkatalog online!",
   },
 } satisfies Record<string, LocalizedText>;
 
@@ -45,17 +45,17 @@ export const categoryContent = {
   "cat-002": {
     name: {
       tr: "Et & Tavuk",
-      de: "Fleisch & Hähnchen",
+      de: "Fleisch & Hendl",
     },
     description: {
       tr: "Taze et ve tavuk ürünleri",
-      de: "Frische Fleisch- und Hähnchenprodukte",
+      de: "Frische Fleisch- und Hendlprodukte",
     },
   },
   "cat-003": {
     name: {
       tr: "Süt & Kahvaltılık",
-      de: "Milchprodukte & Frühstücksartikel",
+      de: "Milchprodukte & Frühstück",
     },
     description: {
       tr: "Süt ürünleri ve kahvaltılıklar",
@@ -85,11 +85,11 @@ export const categoryContent = {
   "cat-006": {
     name: {
       tr: "Atıştırmalık",
-      de: "Snacks",
+      de: "Knabbereien",
     },
     description: {
       tr: "Cips, çikolata ve atıştırmalıklar",
-      de: "Chips, Schokolade und Snacks",
+      de: "Chips, Schokolade und Knabbereien",
     },
   },
   "cat-007": {
@@ -141,15 +141,15 @@ export const productContent = {
     metaDescription: { tr: "Taze Cavendish muzları", de: "Frische Cavendish-Bananen"},
   },
   "prod-003": {
-    name: { tr: "Domates (Salkım)", de: "Rispentomaten"},
+    name: { tr: "Domates (Salkım)", de: "Rispenparadeiser"},
     description: {
       tr: "Taze salkım domatesler. Salata ve yemekler için ideal.",
-      de: "Frische Rispentomaten. Ideal für Salate und Gerichte.",
+      de: "Frische Rispenparadeiser. Ideal für Salate und Gerichte.",
     },
-    shortDescription: { tr: "Taze salkım domates", de: "Frische Rispentomaten"},
-    tags: { tr: ["sebze", "domates", "taze"], de: ["gemüse", "tomate", "frisch"]},
-    metaTitle: { tr: "Domates - Oba Supermarkt", de: "Rispentomaten - Oba Supermarkt"},
-    metaDescription: { tr: "Taze salkım domatesler", de: "Frische Rispentomaten"},
+    shortDescription: { tr: "Taze salkım domates", de: "Frische Rispenparadeiser"},
+    tags: { tr: ["sebze", "domates", "taze"], de: ["gemüse", "paradeiser", "frisch"]},
+    metaTitle: { tr: "Domates - Oba Supermarkt", de: "Rispenparadeiser - Oba Supermarkt"},
+    metaDescription: { tr: "Taze salkım domatesler", de: "Frische Rispenparadeiser"},
   },
   "prod-004": {
     name: { tr: "Salatalık", de: "Gurke"},
@@ -163,26 +163,26 @@ export const productContent = {
     metaDescription: { tr: "Taze gevrek salatalıklar", de: "Frische knackige Gurken"},
   },
   "prod-005": {
-    name: { tr: "Dana Kıyma (Az Yağlı)", de: "Rinderhackfleisch (fettarm)"},
+    name: { tr: "Dana Kıyma (Az Yağlı)", de: "Rindsfaschiertes (mager)"},
     description: {
       tr: "Taze dana kıyma, az yağlı. Günlük çekim.",
-      de: "Frisches Rinderhackfleisch, fettarm. Täglich frisch gewolft.",
+      de: "Frisches Rindsfaschiertes, mager. Täglich frisch faschiert.",
     },
-    shortDescription: { tr: "Az yağlı dana kıyma", de: "Fettarmes Rinderhackfleisch"},
-    tags: { tr: ["et", "dana", "kıyma"], de: ["fleisch", "rind", "hackfleisch"]},
-    metaTitle: { tr: "Dana Kıyma - Oba Supermarkt", de: "Rinderhackfleisch - Oba Supermarkt"},
-    metaDescription: { tr: "Az yağlı taze dana kıyma", de: "Frisches fettarmes Rinderhackfleisch"},
+    shortDescription: { tr: "Az yağlı dana kıyma", de: "Mageres Rindsfaschiertes"},
+    tags: { tr: ["et", "dana", "kıyma"], de: ["fleisch", "rind", "faschiertes"]},
+    metaTitle: { tr: "Dana Kıyma - Oba Supermarkt", de: "Rindsfaschiertes - Oba Supermarkt"},
+    metaDescription: { tr: "Az yağlı taze dana kıyma", de: "Frisches mageres Rindsfaschiertes"},
   },
   "prod-006": {
-    name: { tr: "Tavuk Göğsü Fileto", de: "Hähnchenbrustfilet"},
+    name: { tr: "Tavuk Göğsü Fileto", de: "Hendlbrustfilet"},
     description: {
       tr: "Hijyenik koşullarda hazırlanmış tavuk göğsü fileto.",
-      de: "Hähnchenbrustfilet, unter hygienischen Bedingungen vorbereitet.",
+      de: "Hendlbrustfilet, unter hygienischen Bedingungen vorbereitet.",
     },
-    shortDescription: { tr: "Tavuk göğsü fileto", de: "Hähnchenbrustfilet"},
-    tags: { tr: ["tavuk", "et", "protein"], de: ["hähnchen", "fleisch", "protein"]},
-    metaTitle: { tr: "Tavuk Göğsü - Oba Supermarkt", de: "Hähnchenbrustfilet - Oba Supermarkt"},
-    metaDescription: { tr: "Taze tavuk göğsü fileto", de: "Frisches Hähnchenbrustfilet"},
+    shortDescription: { tr: "Tavuk göğsü fileto", de: "Hendlbrustfilet"},
+    tags: { tr: ["tavuk", "et", "protein"], de: ["hendl", "fleisch", "protein"]},
+    metaTitle: { tr: "Tavuk Göğsü - Oba Supermarkt", de: "Hendlbrustfilet - Oba Supermarkt"},
+    metaDescription: { tr: "Taze tavuk göğsü fileto", de: "Frisches Hendlbrustfilet"},
   },
   "prod-007": {
     name: { tr: "Tam Yağlı Süt (1L)", de: "Vollmilch (1L)"},
@@ -207,14 +207,14 @@ export const productContent = {
     metaDescription: { tr: "Tam yağlı beyaz peynir", de: "Vollfetter Weißkäse"},
   },
   "prod-009": {
-    name: { tr: "Somun Ekmek", de: "Laibbrot"},
+    name: { tr: "Somun Ekmek", de: "Brotlaib"},
     description: {
       tr: "Günlük taze somun ekmek. İçi yumuşak, dışı çıtır.",
       de: "Täglich frisches Brot mit weicher Krume und knuspriger Kruste.",
     },
-    shortDescription: { tr: "Taze somun ekmek", de: "Frisches Laibbrot"},
+    shortDescription: { tr: "Taze somun ekmek", de: "Frischer Brotlaib"},
     tags: { tr: ["ekmek", "fırın", "taze"], de: ["brot", "backwaren", "frisch"]},
-    metaTitle: { tr: "Somun Ekmek - Oba Supermarkt", de: "Laibbrot - Oba Supermarkt"},
+    metaTitle: { tr: "Somun Ekmek - Oba Supermarkt", de: "Brotlaib - Oba Supermarkt"},
     metaDescription: { tr: "Günlük taze somun ekmek", de: "Täglich frisches Brot"},
   },
   "prod-010": {
@@ -251,15 +251,15 @@ export const productContent = {
     metaDescription: { tr: "Klasik cola 1L", de: "Klassische Cola 1L"},
   },
   "prod-013": {
-    name: { tr: "Cips (Klasik)", de: "Kartoffelchips (klassisch)"},
+    name: { tr: "Cips (Klasik)", de: "Erdäpfelchips (klassisch)"},
     description: {
       tr: "Klasik patates cipsi. Aile boyu paket.",
-      de: "Klassische Kartoffelchips. Familienpackung.",
+      de: "Klassische Erdäpfelchips. Familienpackung.",
     },
-    shortDescription: { tr: "Klasik cips", de: "Klassische Kartoffelchips"},
-    tags: { tr: ["cips", "atıştırmalık", "abur cubur"], de: ["kartoffelchips", "knabberei", "salzig"]},
-    metaTitle: { tr: "Cips - Oba Supermarkt", de: "Kartoffelchips - Oba Supermarkt"},
-    metaDescription: { tr: "Klasik patates cipsi", de: "Klassische Kartoffelchips"},
+    shortDescription: { tr: "Klasik cips", de: "Klassische Erdäpfelchips"},
+    tags: { tr: ["cips", "atıştırmalık", "abur cubur"], de: ["erdäpfelchips", "knabberei", "salzig"]},
+    metaTitle: { tr: "Cips - Oba Supermarkt", de: "Erdäpfelchips - Oba Supermarkt"},
+    metaDescription: { tr: "Klasik patates cipsi", de: "Klassische Erdäpfelchips"},
   },
   "prod-014": {
     name: { tr: "Çikolata (Sütlü)", de: "Milchschokolade"},

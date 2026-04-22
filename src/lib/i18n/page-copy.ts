@@ -54,19 +54,19 @@ const productDetailCopy = {
     products: "Produkte",
     noImage: "Kein Bild",
     discount: "Rabatt",
-    featured: "Empfohlen",
+    featured: "Im Fokus",
     sku: "SKU",
-    savings: "gespart",
+    savings: "erspart",
     unit: "Einheit",
-    stock: "Bestand",
-    inStock: "Auf Lager",
-    outOfStock: "Nicht auf Lager",
+    stock: "Lagerstand",
+    inStock: "Lagernd",
+    outOfStock: "Derzeit nicht lagernd",
     barcode: "Barcode",
     fresh: "Frische Ware",
-    fast: "Schnelle Lieferung",
+    fast: "Rasche Lieferung",
     quality: "Qualitätsgarantie",
     addToCart: "In den Warenkorb",
-    tags: "Stichwörter",
+    tags: "Schlagwörter",
     descriptionTitle: "Produktbeschreibung",
     relatedTitle: "Ähnliche Produkte",
   },
@@ -110,8 +110,8 @@ const promotionDetailCopy = {
     startDate: "Startdatum",
     endDate: "Enddatum",
     percentage: "Prozent-Rabatt",
-    fixedAmount: "Fixer Rabatt",
-    buyXGetY: "Kaufe X, zahle Y",
+    fixedAmount: "Fixbetrag",
+    buyXGetY: "Kauf X, zahl Y",
   },
 } satisfies Record<Locale, Record<string, string>>;
 
@@ -182,15 +182,15 @@ const aboutPageCopy = {
     intro:
       "ein Supermarkt, der seine Nachbarschaft in der Region Laaer Berg bedient. Von der Fleischtheke über tägliches Brot und Poğaça bis hin zu Frühstücksartikeln und Reinigungsprodukten legen wir Wert darauf, die täglichen Bedürfnisse des Haushalts unter einem Dach zusammenzubringen.",
     paragraph1:
-      "Als Markt in Österreich wählen wir Produkte nach Qualitätsstandards aus und halten unsere Regale ordentlich und hygienisch. In unserer Fleischabteilung bieten wir täglich frische Produkte, in unserer Backabteilung Brot- und Poğaça-Sorten und in unseren Frühstücksregalen eine große Auswahl für einen guten Start in den Tag.",
+      "Als Markt in Österreich wählen wir unsere Produkte nach hohen Qualitätsstandards aus und halten unsere Regale ordentlich und hygienisch. In unserer Fleischabteilung finden Sie täglich frische Ware, in unserer Backabteilung Brot und Poğaça und bei den Frühstücksartikeln eine große Auswahl für einen guten Start in den Tag.",
     paragraph2:
-      "Unser Ziel ist es, Ihnen im schnellen Stadtleben Zeit zu sparen: Von Obst und Gemüse über Grundnahrungsmittel, von Getränken und Snacks bis hin zu Reinigungs- und Haushaltsartikeln und täglichen Backwaren sind wir hier, damit Sie alles, was Sie von einem Supermarkt erwarten, an einem Ort erledigen können. Mit unseren wöchentlichen Aktionen nehmen wir außerdem Rücksicht auf Ihr Budget.",
+      "Unser Ziel ist es, Ihnen im raschen Stadtalltag Zeit zu sparen: von Obst und Gemüse über Grundnahrungsmittel, von Getränken und Knabbereien bis hin zu Reinigungs- und Haushaltsartikeln und täglichen Backwaren. Damit können Sie alles, was Sie von einem Supermarkt erwarten, an einem Ort erledigen. Mit unseren wöchentlichen Aktionen nehmen wir außerdem Rücksicht auf Ihr Budget.",
     freshnessTitle: "Tägliche Frische",
     freshnessBody:
-      "In den Abteilungen für Obst, Gemüse, Fleisch und Backwaren halten wir die Rotation hoch; mit täglichem Brot, Poğaça und frischen Produkten bieten wir unseren Kundinnen und Kunden jeden Tag ein erneuertes Einkaufserlebnis.",
+      "In den Abteilungen für Obst, Gemüse, Fleisch und Backwaren achten wir auf eine rasche Rotation; mit täglichem Brot, Poğaça und frischen Produkten bieten wir unseren Kundinnen und Kunden jeden Tag ein neues Einkaufserlebnis.",
     neighborhoodTitle: "Große Vielfalt",
     neighborhoodBody:
-      "In Wien 1100 achten wir darauf, eine gut gefüllte Marktatmosphäre zu schaffen, in der Frühstücksartikel, Getränke, Snacks, Reinigungsprodukte und viele weitere Dinge, die man zu Hause brauchen kann, zusammen angeboten werden.",
+      "In Wien 1100 achten wir darauf, eine gut gefüllte Marktatmosphäre zu schaffen, in der Frühstücksartikel, Getränke, Knabbereien, Reinigungsprodukte und viele weitere Dinge, die man daheim braucht, zusammen angeboten werden.",
     trustTitle: "Vertrauen und Ordnung",
     trustBody:
       "Mit ausgezeichneten Preisen, klaren Informationen, geordneten Regalen und einem auf Hygiene ausgerichteten Marktverständnis bieten wir einen transparenten Service, der unseren Kundinnen und Kunden Vertrauen gibt.",
@@ -225,7 +225,7 @@ const contactPageCopy = {
   de: {
     title: "Kontakt",
     description: "Kontaktinformationen von Oba Supermarkt. Adresse, Telefon und Öffnungszeiten für Fleischtheke, tägliche Backwaren, Frühstücksartikel, Reinigungsprodukte und alle Ihre Marktbedürfnisse.",
-    hero: "Für Fleischtheke, tägliche Brot- und Poğaça-Sorten, Frühstücksartikel, Reinigungsprodukte und Ihre anderen Marktbedürfnisse können Sie uns über die folgenden Informationen erreichen. Wir helfen Ihnen gerne weiter.",
+    hero: "Für Fleischtheke, tägliches Brot und Poğaça, Frühstücksartikel, Reinigungsprodukte und Ihre sonstigen Marktbedürfnisse erreichen Sie uns über die folgenden Informationen. Wir helfen Ihnen gerne weiter.",
     storeStatus: "Marktstatus",
     open: "Jetzt geöffnet",
     closed: "Jetzt geschlossen",
@@ -233,7 +233,7 @@ const contactPageCopy = {
     phone: "Telefon",
     email: "E-Mail",
     hours: "Öffnungszeiten",
-    hoursNote: "Hier können Sie unsere Öffnungszeiten verfolgen, damit Sie Ihren täglichen Einkauf planen können.",
+    hoursNote: "Hier können Sie unsere Öffnungszeiten nachsehen, damit Sie Ihren täglichen Einkauf gut planen können.",
     social: "Social Media",
     location: "Standort",
     mapNeedsKey: "Für die Kartenintegration ist ein Google-Maps-API-Schlüssel erforderlich.",
@@ -303,59 +303,59 @@ const faqPageCopy: Record<Locale, FaqPageCopy> = {
   de: {
     title: "Häufige Fragen",
     description:
-      "Was man über Öffnungszeiten, Adresse, Zahlung, Produkte und den Einkauf bei Oba Supermarkt wissen möchte.",
+      "Wissenswertes zu Öffnungszeiten, Adresse, Bezahlung, Produkten und dem Einkauf bei Oba Supermarkt.",
     backHome: "Startseite",
     intro:
-      "Unten haben wir die häufigsten Fragen zu unserem Nachbarschaftsmarkt in der Region Laaer Berg gesammelt. Wenn Sie eine andere Frage haben, können Sie uns über unsere Kontaktseite oder direkt in unserem Markt erreichen.",
+      "Unten haben wir die häufigsten Fragen zu unserem Nachbarschaftsmarkt in der Region Laaer Berg gesammelt. Wenn Sie noch etwas wissen möchten, erreichen Sie uns über unsere Kontaktseite oder direkt in unserem Markt.",
     items: [
       {
         question: "Wie sind Ihre Öffnungszeiten?",
         answer:
-          "In der Regel sind wir werktags von 08:00 bis 19:30 Uhr und samstags von 08:00 bis 18:00 Uhr geöffnet; sonntags haben wir geschlossen. Für aktuelle und genaue Zeiten können Sie die Tabelle mit den Öffnungszeiten im Kontaktbereich unserer Website oder die Informationen am Markteingang prüfen.",
+          "In der Regel haben wir werktags von 08:00 bis 19:30 Uhr und samstags von 08:00 bis 18:00 Uhr geöffnet; sonntags ist geschlossen. Die aktuellen und genauen Zeiten finden Sie in der Tabelle auf unserer Kontaktseite oder bei den Informationen am Markteingang.",
       },
       {
         question: "Wo liegt der Markt und wie komme ich hin?",
         answer:
-          "Wir befinden uns in der Laaer-Berg-Straße 14, 1100 Wien. Der Kartenlink befindet sich im Kontaktbereich und im Footer; dort können Sie Ihre Route mit öffentlichen Verkehrsmitteln oder dem Auto planen.",
+          "Sie finden uns in der Laaer-Berg-Straße 14, 1100 Wien. Den Kartenlink gibt es im Kontaktbereich und im Footer; dort können Sie Ihre Route mit den Öffis oder mit dem Auto planen.",
       },
       {
         question: "Gibt es Online-Bestellung oder Lieferung?",
         answer:
-          "Derzeit dient unsere Website dazu, Produkte und Aktionen vorzustellen; Bestell- und Lieferprozesse können in Zukunft angekündigt werden. Für aktuelle Informationen können Sie unseren Markt anrufen oder uns besuchen.",
+          "Derzeit dient unsere Website dazu, Produkte und Aktionen vorzustellen; Bestell- und Liefermöglichkeiten können künftig angekündigt werden. Für aktuelle Informationen können Sie unseren Markt anrufen oder uns besuchen.",
       },
       {
         question: "Stimmen die Preise auf der Website mit dem Markt überein?",
         answer:
-          "Aktions- und Produktinformationen dienen der Information. Der genaue Preis, Rabatt und Lagerbestand richtet sich nach den Etiketten und der Kassenanwendung im Markt; im Zweifel können Sie unser Kassen- oder Regalpersonal fragen.",
+          "Aktions- und Produktinformationen dienen der Orientierung. Der genaue Preis, Rabatt und Lagerstand richtet sich nach den Etiketten und dem Kassensystem im Markt; im Zweifel können Sie unser Kassen- oder Regalpersonal fragen.",
       },
       {
         question: "Welche Zahlungsarten akzeptieren Sie?",
         answer:
-          "In der Regel werden Bargeld sowie gängige Bank- und Kreditkarten akzeptiert. Für besondere Fälle oder Aktionen beachten Sie bitte die aktuelle Information in unserem Markt.",
+          "In der Regel werden Bargeld sowie gängige Bank- und Kreditkarten akzeptiert. Bei besonderen Fällen oder Aktionen beachten Sie bitte die aktuellen Informationen im Markt.",
       },
       {
         question: "Wie funktionieren Umtausch oder Rückgabe?",
         answer:
-          "Aufgrund von Lebensmittelsicherheit und Hygiene können die Rückgabebedingungen bei vielen Produktgruppen eingeschränkt sein. Bewahren Sie Ihren Beleg auf; bei Unzufriedenheit oder mangelhafter Ware wenden Sie sich bitte noch am selben Tag an unsere Kasse oder unseren Kundenservice.",
+          "Aufgrund von Lebensmittelsicherheit und Hygiene können die Rückgabebedingungen bei vielen Produktgruppen eingeschränkt sein. Bitte bewahren Sie Ihren Beleg auf; bei Unzufriedenheit oder mangelhafter Ware wenden Sie sich noch am selben Tag an unsere Kassa oder unseren Kundenservice.",
       },
       {
         question: "Gibt es eine Fleischtheke und täglich frische Backwaren?",
         answer:
-          "Ja; wir möchten unter einem Dach eine Fleischtheke, tägliche Brot- und Backwaren sowie frische Lebensmittel und Produkte des täglichen Bedarfs anbieten. Die Auswahl kann je nach Saison und Lieferung variieren.",
+          "Ja; wir möchten unter einem Dach eine Fleischtheke, tägliches Brot und Backwaren sowie frische Lebensmittel und Produkte des täglichen Bedarfs anbieten. Die Auswahl kann je nach Saison und Lieferung variieren.",
       },
       {
         question: "Gibt es Parkplätze oder Fahrradstellplätze?",
         answer:
-          "Je nach Lage kann es Parkmöglichkeiten an der Straße oder in der Nähe geben. Wenn Sie mit dem Auto kommen, empfehlen wir, die ausgeschilderten Bereiche und die Wiener Parkregeln zu beachten; für genaue Informationen zum Bereich vor dem Markt können Sie uns anrufen.",
+          "Je nach Lage kann es Parkmöglichkeiten an der Straße oder in der Nähe geben. Wenn Sie mit dem Auto kommen, empfehlen wir, die ausgeschilderten Bereiche und die Wiener Parkregeln zu beachten; für genaue Informationen zum Bereich vor dem Markt können Sie uns gerne anrufen.",
       },
       {
         question: "Wie erreiche ich Sie telefonisch oder per E-Mail?",
         answer:
-          "Unsere Telefonnummer und E-Mail-Adresse stehen auf der Kontaktseite und im Footer der Website. Auf Nachrichten, die Sie außerhalb der Öffnungszeiten hinterlassen, antworten wir so schnell wie möglich.",
+          "Unsere Telefonnummer und E-Mail-Adresse stehen auf der Kontaktseite und im Footer der Website. Auf Nachrichten, die Sie außerhalb der Öffnungszeiten hinterlassen, antworten wir so bald wie möglich.",
       },
     ],
     disclaimer:
-      "Dieser FAQ-Text dient der allgemeinen Information; besondere Aktionen, rechtliche Regelungen oder Hinweise im Markt haben Vorrang.",
+      "Dieser FAQ-Text dient der allgemeinen Information; besondere Aktionen, rechtliche Vorgaben oder Hinweise im Markt haben Vorrang.",
   },
 };
 
@@ -433,7 +433,7 @@ const legalCopy = {
         {
           title: "2. Verantwortliche Stelle",
           paragraphs: [
-            "Für Fragen zu Ihren personenbezogenen Daten können Sie uns über die Kanäle auf der Kontaktseite erreichen. Wir bemühen uns, Ihre Anliegen innerhalb einer angemessenen Frist zu beantworten.",
+            "Für Fragen zu Ihren personenbezogenen Daten können Sie uns über die Kanäle auf der Kontaktseite erreichen. Wir bemühen uns, Ihre Anliegen innerhalb angemessener Frist zu beantworten.",
           ],
         },
         {
@@ -471,7 +471,7 @@ const legalCopy = {
         },
       ],
       disclaimer:
-        "Der Text auf dieser Seite hat Beispiel- bzw. Entwurfscharakter und ersetzt keine Rechtsberatung. Verbindliche und aktuelle Texte werden später veröffentlicht.",
+        "Der Text auf dieser Seite hat Beispiel- bzw. Entwurfscharakter und ersetzt keine Rechtsberatung. Verbindliche und aktuelle Fassungen können später veröffentlicht werden.",
     },
   },
   terms: {
@@ -586,7 +586,7 @@ const legalCopy = {
         {
           title: "7. Anwendbares Recht und Gerichtsstand",
           paragraphs: [
-            "Bei Streitigkeiten können die in Österreich geltenden Rechtsvorschriften und zuständigen Gerichte maßgeblich sein; zwingende Verbraucherrechte bleiben vorbehalten.",
+            "Bei Streitigkeiten können die in Österreich geltenden Rechtsvorschriften und die zuständigen Gerichte maßgeblich sein; zwingende Verbraucherrechte bleiben vorbehalten.",
           ],
         },
         {
@@ -597,7 +597,7 @@ const legalCopy = {
         },
       ],
       disclaimer:
-        "Der Text auf dieser Seite hat Beispiel- bzw. Entwurfscharakter und ersetzt keine Rechtsberatung. Verbindliche und aktuelle Texte werden später veröffentlicht.",
+        "Der Text auf dieser Seite hat Beispiel- bzw. Entwurfscharakter und ersetzt keine Rechtsberatung. Verbindliche und aktuelle Fassungen können später veröffentlicht werden.",
     },
   },
 } satisfies {
@@ -636,6 +636,5 @@ export function getTermsPageCopy(locale: Locale) {
 export function getFaqPageCopy(locale: Locale) {
   return faqPageCopy[locale];
 }
-
 
 

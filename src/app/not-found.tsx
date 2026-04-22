@@ -22,7 +22,7 @@ const notFoundCopy: Record<
   de: {
     title: "Seite nicht gefunden",
     description:
-      "Die Seite, die Sie suchen, existiert nicht oder wurde möglicherweise verschoben. Bitte kehren Sie zur Startseite zurück oder versuchen Sie eine andere Seite.",
+      "Die gesuchte Seite gibt es nicht oder sie wurde vielleicht verschoben. Bitte kehren Sie zur Startseite zurück oder versuchen Sie eine andere Seite.",
     home: "Startseite",
   },
 };

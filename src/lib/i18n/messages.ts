@@ -140,9 +140,9 @@ type Messages = typeof trMessages;
 
 const deMessages: Messages = {
   store: {
-    tagline: "Frische Produkte, wöchentliche Rabatte",
+    tagline: "Frische Produkte, wöchentliche Aktionen",
     description:
-      "Als Oba Supermarkt bieten wir unseren Kundinnen und Kunden die frischesten Produkte zu den günstigsten Preisen. Mit unserem breiten Sortiment, das wir von lokalen Produzenten und aus der Türkei beziehen, sind wir für Sie da.",
+      "Als Oba Supermarkt bieten wir unseren Kundinnen und Kunden die frischesten Produkte zu fairen Preisen. Mit unserem breiten Sortiment, das wir von regionalen Produzentinnen und Produzenten sowie aus der Türkei beziehen, sind wir gerne für Sie da.",
   },
   shared: {
     days: [
@@ -173,7 +173,7 @@ const deMessages: Messages = {
       callStore: "Anrufen",
     },
     footer: {
-      linksAriaLabel: "Navigation im Marktauftritt",
+      linksAriaLabel: "Links zum Marktauftritt",
       contactHeading: "Kontakt",
       openMap: "In Google Maps öffnen",
       phone: "Telefon",
@@ -190,31 +190,31 @@ const deMessages: Messages = {
   home: {
     primaryCta: "Produkte entdecken",
     secondaryCta: "Aktionen",
-    desktopTagline: "Qualitätsprodukte, günstige Preise",
+    desktopTagline: "Gute Qualität, faire Preise",
     freshProductsTitle: "Frische Produkte",
     freshProductsDescription: "Jeden Tag frisch",
-    dealsTitle: "Rabatte",
+    dealsTitle: "Aktionen",
     dealsDescription: "Jede Woche neu",
     weeklyPromotionsTitle: "Aktionen",
-    weeklyPromotionsDescription: "Nicht verpassen, zeitlich begrenzte Rabatte!",
-    saleProductsTitle: "Aktionsprodukte",
-    saleProductsDescription: "Verpassen Sie die Aktionsprodukte nicht",
+    weeklyPromotionsDescription: "Nicht verpassen, zeitlich begrenzte Angebote!",
+    saleProductsTitle: "Produkte im Angebot",
+    saleProductsDescription: "Unsere Angebotsprodukte nicht verpassen",
     heroChips: [
       "Frische Produkte",
       "Tägliche Angebote",
       "Wöchentliche Aktionen",
       "Verlässlicher Supermarkt",
-      "Grundnahrungsmittel und Snacks",
+      "Grundnahrungsmittel und Knabbereien",
       "Sorgfältig ausgewählte Produkte",
-      "Qualitätsprodukte, freundlicher Service",
-      "Frühstücksartikel, Getränke und Küchenprodukte",
+      "Gute Qualität, freundlicher Service",
+      "Frühstück, Getränke und Küchenbedarf",
     ],
   },
   cards: {
     product: {
       noImage: "Kein Bild",
       discountSuffix: "Rabatt",
-      featured: "Empfohlen",
+      featured: "Im Fokus",
     },
     promotion: {
       details: "Details anschauen",
@@ -246,13 +246,13 @@ const deMessages: Messages = {
       next: "Weiter",
       metaTitle: "Produkte",
       metaDescription:
-        "Produktkatalog von Oba Supermarkt. Frische Lebensmittel, Grundnahrungsmittel, Getränke und vieles mehr.",
+        "Produktkatalog von Oba Supermarkt. Frischwaren, Grundnahrungsmittel, Getränke und vieles mehr.",
     },
     promotions: {
       title: "Aktuelle Aktionen",
       description:
-        "Machen Sie Ihren Einkauf mit wöchentlichen Rabatten und besonderen Angeboten günstiger.",
-      featuredTitle: "Ausgewählte Aktionen",
+        "Mit wöchentlichen Aktionen und besonderen Angeboten wird Ihr Einkauf noch günstiger.",
+      featuredTitle: "Aktionen im Fokus",
       allTitle: "Alle Aktionen",
       activeSuffix: "aktive Aktionen",
       none: "Derzeit gibt es keine aktive Aktion.",
@@ -263,14 +263,14 @@ const deMessages: Messages = {
       exploreCta: "Produkte entdecken",
       metaTitle: "Aktionen",
       metaDescription:
-        "Aktuelle Aktionen und Rabatte von Oba Supermarkt. Verpassen Sie die wöchentlichen Sonderangebote nicht!",
+        "Aktuelle Aktionen und Rabatte von Oba Supermarkt. Unsere wöchentlichen Angebote nicht verpassen!",
     },
     categories: {
       title: "Kategorien",
       description: "Entdecken Sie alle unsere Produktkategorien",
       metaTitle: "Kategorien",
       metaDescription:
-        "Produktkategorien von Oba Supermarkt. Obst und Gemüse, Fleisch und Hähnchen, Molkereiprodukte und mehr.",
+        "Produktkategorien von Oba Supermarkt. Obst und Gemüse, Fleisch und Hendl, Milchprodukte und mehr.",
     },
   },
 };
