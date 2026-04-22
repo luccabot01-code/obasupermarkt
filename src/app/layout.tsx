@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { HtmlLang } from "@/components/shared/HtmlLang";
 import { ScrollToTop } from "@/components/shared/ScrollToTop";
+import { BRAND_LOGO_ALT, BRAND_LOGO_PATH } from "@/lib/brand";
 import { localeToHtmlLang } from "@/lib/i18n/config";
 import { getLocalizedStoreValue } from "@/lib/i18n/content";
 import { getRequestLocale } from "@/lib/i18n/server";
@@ -42,10 +43,26 @@ function localeToOpenGraph(locale: "de" | "tr"): string {
   }
 }
 
+function getMetadataBase(): URL {
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    process.env.VERCEL_PROJECT_PRODUCTION_URL ??
+    "https://obasupermarkt.vercel.app";
+
+  return new URL(siteUrl.startsWith("http") ? siteUrl : `https://${siteUrl}`);
+}
+
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getRequestLocale();
   const title = getLocalizedStoreValue("metaTitle", locale);
   const description = getLocalizedStoreValue("metaDescription", locale);
+  const metadataBase = getMetadataBase();
+  const socialImage = {
+    url: BRAND_LOGO_PATH,
+    width: 826,
+    height: 826,
+    alt: BRAND_LOGO_ALT,
+  } as const;
 
   return {
     title: {
@@ -56,19 +73,30 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: [...localizedKeywords[locale]],
     authors: [{ name: "Oba Supermarkt" }],
     creator: "Oba Supermarkt",
-    metadataBase: new URL("https://obasupermarkt.at"),
+    metadataBase,
+    icons: {
+      icon: [
+        { url: BRAND_LOGO_PATH, type: "image/png", sizes: "826x826" },
+      ],
+      shortcut: [BRAND_LOGO_PATH],
+      apple: [
+        { url: BRAND_LOGO_PATH, type: "image/png", sizes: "826x826" },
+      ],
+    },
     openGraph: {
       type: "website",
       locale: localeToOpenGraph(locale),
-      url: "https://obasupermarkt.at",
+      url: metadataBase,
       siteName: "Oba Supermarkt",
       title,
       description,
+      images: [socialImage],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [socialImage.url],
     },
     robots: {
       index: true,
